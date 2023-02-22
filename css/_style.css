@@ -1,0 +1,7631 @@
+ /*Normal desktop :1200px. */
+
+/* Normal desktop :992px. */
+
+/* Tablet desktop :768px. */
+
+/* small mobile :320px. */
+
+/* Large Mobile :480px. */
+
+/* 1. Theme default css */
+
+/* line 4, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_reset.scss */
+
+body {
+
+  /*font-family: 'Roboto', sans-serif;*/
+
+  font-family: 'Montserrat', sans-serif;
+
+  font-weight: normal;
+
+  font-style: normal;
+
+  font-size: 15px!important;
+
+}
+
+
+
+
+
+/* line 11, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_reset.scss */
+
+.img {
+
+  max-width: 100%;
+
+  -webkit-transition: 0.3s;
+
+  -moz-transition: 0.3s;
+
+  -o-transition: 0.3s;
+
+  transition: 0.3s;
+
+}
+
+
+
+/* line 15, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_reset.scss */
+
+a,
+
+.button {
+
+  -webkit-transition: 0.3s;
+
+  -moz-transition: 0.3s;
+
+  -o-transition: 0.3s;
+
+  transition: 0.3s;
+
+}
+
+
+
+/* line 19, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_reset.scss */
+
+a:focus,
+
+.button:focus, button:focus {
+
+  text-decoration: none;
+
+  outline: none;
+
+}
+
+
+
+/* line 24, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_reset.scss */
+
+a:focus {
+
+  text-decoration: none;
+
+}
+
+
+
+/* line 27, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_reset.scss */
+
+a:focus,
+
+a:hover,
+
+.portfolio-cat a:hover,
+
+.footer -menu li a:hover {
+
+  text-decoration: none;
+
+}
+
+
+
+/* line 33, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_reset.scss */
+
+a,
+
+button {
+
+  outline: medium none;
+
+}
+
+
+
+/* line 37, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_reset.scss */
+
+h1, h2, h3, h4, h5 {
+
+  /*font-family: 'Roboto', sans-serif;*/
+
+  font-family: 'Montserrat', sans-serif;
+
+  color: #191d34;
+
+}
+
+
+
+/* line 41, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_reset.scss */
+
+h1 a,
+
+h2 a,
+
+h3 a,
+
+h4 a,
+
+h5 a,
+
+h6 a {
+
+  color: inherit;
+
+}
+
+
+
+/* line 50, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_reset.scss */
+
+ul {
+
+  margin: 0px;
+
+  padding: 0px;
+
+}
+
+
+
+/* line 54, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_reset.scss */
+
+li {
+
+  list-style: none;
+
+}
+
+
+
+/* line 57, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_reset.scss */
+
+p {
+
+  font-size: 15px;
+
+  font-weight: 300;
+
+  line-height: 1.75;
+
+  color: #666666;
+
+  margin-bottom: 0!important;
+
+  /*font-family: 'Roboto', sans-serif;*/
+
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+/* line 66, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_reset.scss */
+
+label {
+
+  color: #7e7e7e;
+
+  cursor: pointer;
+
+  font-size: 14px;
+
+  font-weight: 500;
+
+}
+
+
+
+/* line 72, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_reset.scss */
+
+*::-moz-selection {
+
+  background: #444;
+
+  color: #fff;
+
+  text-shadow: none;
+
+}
+
+
+
+/* line 77, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_reset.scss */
+
+::-moz-selection {
+
+  background: #444;
+
+  color: #fff;
+
+  text-shadow: none;
+
+}
+
+
+
+/* line 82, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_reset.scss */
+
+::selection {
+
+  background: #444;
+
+  color: #fff;
+
+  text-shadow: none;
+
+}
+
+
+
+/* line 87, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_reset.scss */
+
+::-webkit-input-placeholder {
+
+  color: #cccccc;
+
+  font-size: 14px;
+
+  opacity: 1;
+
+}
+
+
+
+/* line 92, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_reset.scss */
+
+::-ms-input-placeholder {
+
+  color: #cccccc;
+
+  font-size: 14px;
+
+  opacity: 1;
+
+  font-weight: 300;
+
+}
+
+
+
+/* line 97, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_reset.scss */
+
+::-ms-input-placeholder {
+
+  color: #cccccc;
+
+  font-size: 14px;
+
+  opacity: 1;
+
+  font-weight: 300;
+
+}
+
+
+
+/* line 102, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_reset.scss */
+
+::placeholder {
+
+  color: #cccccc;
+
+  font-size: 14px;
+
+  opacity: 1;
+
+  font-weight: 300;
+
+}
+
+
+
+/* line 108, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_reset.scss */
+
+h3 {
+
+  font-size: 24px;
+
+}
+
+
+
+/* line 112, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_reset.scss */
+
+.mb-65 {
+
+  margin-bottom: 67px;
+
+}
+
+
+
+/* line 116, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_reset.scss */
+
+.black-bg {
+
+  background: #020c26 !important;
+
+}
+
+
+
+/* line 120, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_reset.scss */
+
+.white-bg {
+
+  background: #ffffff;
+
+}
+
+
+
+/* line 123, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_reset.scss */
+
+.gray-bg {
+
+  background: #f5f5f5;
+
+}
+
+
+
+/* line 170, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_reset.scss */
+
+.section-padding {
+
+  padding-top: 120px;
+
+  padding-bottom: 120px;
+
+}
+
+
+
+/* line 174, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_reset.scss */
+
+.pt-120 {
+
+  padding-top: 120px;
+
+}
+
+
+
+/* button style */
+
+/* line 180, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_reset.scss */
+
+.owl-carousel .owl-nav div {
+
+  background: transparent;
+
+  height: 54px;
+
+  left: 0px;
+
+  line-height: 54px;
+
+  position: absolute;
+
+  text-align: center;
+
+  top: 50%;
+
+  -webkit-transform: translateY(-50%);
+
+  -ms-transform: translateY(-50%);
+
+  transform: translateY(-50%);
+
+  -webkit-transition: all 0.3s ease 0s;
+
+  -o-transition: all 0.3s ease 0s;
+
+  transition: all 0.3s ease 0s;
+
+  width: 54px;
+
+  font-size: 25px;
+
+  color: #fff;
+
+  background-color: white;
+
+  border-radius: 50%;
+
+  left: 50px;
+
+  font-size: 18px;
+
+  line-height: 54px;
+
+  left: -26px;
+
+  font-size: 18px;
+
+  line-height: 54px;
+
+  color: #000;
+
+}
+
+
+
+/* line 211, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_reset.scss */
+
+.owl-carousel .owl-nav div.owl-next {
+
+  left: auto;
+
+  right: -30px;
+
+}
+
+
+
+/* line 216, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_reset.scss */
+
+.owl-carousel .owl-nav div.owl-next i {
+
+  position: relative;
+
+  right: 0;
+
+  top: 1px;
+
+}
+
+
+
+/* line 223, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_reset.scss */
+
+.owl-carousel .owl-nav div.owl-prev i {
+
+  position: relative;
+
+  right: 1px;
+
+  top: 0px;
+
+}
+
+
+
+/* line 233, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_reset.scss */
+
+.owl-carousel:hover .owl-nav div {
+
+  opacity: 1;
+
+  visibility: visible;
+
+}
+
+
+
+/* line 236, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_reset.scss */
+
+.owl-carousel:hover .owl-nav div:hover {
+
+  color: #fff;
+
+  background: #ff3500;
+
+}
+
+
+
+/* line 245, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_reset.scss */
+
+.mb-20px {
+
+  margin-bottom: 20px;
+
+}
+
+
+
+/* line 248, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_reset.scss */
+
+.mb-90 {
+
+  margin-bottom: 90px;
+
+}
+
+
+
+
+
+/* line 1, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_btn.scss */
+
+.boxed-btn {
+
+  background: #fff;
+
+  color: #ff3500;
+
+  display: inline-block;
+
+  padding: 18px 44px;
+
+  /*font-family: 'Roboto', sans-serif;;*/
+
+  font-family: 'Montserrat', sans-serif;
+
+  font-size: 14px;
+
+  font-weight: 400;
+
+  border: 0;
+
+  border: 1px solid #ff3500;
+
+  letter-spacing: 3px;
+
+  text-align: center;
+
+  color: #ff3500 !important;
+
+  text-transform: uppercase;
+
+  cursor: pointer;
+
+}
+
+
+
+/* line 17, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_btn.scss */
+
+.boxed-btn:hover {
+
+  background: #ff3500;
+
+  color: #fff !important;
+
+  border: 1px solid #ff3500;
+
+}
+
+
+
+/* line 22, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_btn.scss */
+
+.boxed-btn:focus {
+
+  outline: none;
+
+}
+
+
+
+/* line 25, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_btn.scss */
+
+.boxed-btn.large-width {
+
+  width: 220px;
+
+}
+
+
+
+/* line 29, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_btn.scss */
+
+.boxed-btn3 {
+
+  font-size: 18px;
+
+  font-weight: 500;
+
+  color: #fff;
+
+  padding: 17px 55px;
+
+  /*font-family: 'Roboto', sans-serif;;*/
+
+  font-family: 'Montserrat', sans-serif;
+
+  display: inline-block;
+
+  -webkit-border-radius: 30px;
+
+  -moz-border-radius: 30px;
+
+  border-radius: 30px;
+
+  background-position: 100% 0;
+
+  background-position: 0 0;
+
+}
+
+
+
+/* line 40, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_btn.scss */
+
+.boxed-btn3:hover {
+
+  background-size: 200% 200%;
+
+  color: #fff;
+
+}
+
+
+
+/* line 45, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_btn.scss */
+
+.boxed-btn3:focus {
+
+  outline: none;
+
+}
+
+
+
+/* line 49, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_btn.scss */
+
+.boxed-btn4 {
+
+  background: #fff;
+
+  font-size: 16px;
+
+  font-weight: 500;
+
+  border: 1px solid transparent;
+
+  color: #ff3500;
+
+  padding: 17px 50px;
+
+  /*font-family: 'Roboto', sans-serif;;*/
+
+  font-family: 'Montserrat', sans-serif;
+
+  display: inline-block;
+
+  -webkit-border-radius: 30px;
+
+  -moz-border-radius: 30px;
+
+  border-radius: 30px;
+
+}
+
+
+
+/* line 59, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_btn.scss */
+
+.boxed-btn4:hover {
+
+  background: #ff3500;
+
+  color: #fff;
+
+  border: 1px solid #ff3500;
+
+}
+
+
+
+/* line 64, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_btn.scss */
+
+.boxed-btn4:focus {
+
+  outline: none;
+
+}
+
+
+
+/* line 68, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_btn.scss */
+
+.boxed-btn2 {
+
+  background: transparent;
+
+  color: #fff;
+
+  display: inline-block;
+
+  padding: 18px 24px;
+
+  /*font-family: 'Roboto', sans-serif;;*/
+
+  font-family: 'Montserrat', sans-serif;
+
+  font-size: 14px;
+
+  font-weight: 400;
+
+  border: 0;
+
+  border: 1px solid #fff;
+
+  letter-spacing: 2px;
+
+  text-transform: uppercase;
+
+}
+
+
+
+/* line 80, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_btn.scss */
+
+.boxed-btn2:hover {
+
+  background: #fff;
+
+  color: #131313 !important;
+
+}
+
+
+
+/* line 84, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_btn.scss */
+
+.boxed-btn2:focus {
+
+  outline: none;
+
+}
+
+
+
+/* line 88, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_btn.scss */
+
+.line-button {
+
+  color: #919191;
+
+  font-size: 16px;
+
+  font-weight: 400;
+
+  display: inline-block;
+
+  position: relative;
+
+  padding-right: 5px;
+
+  padding-bottom: 2px;
+
+}
+
+
+
+/* line 96, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_btn.scss */
+
+.line-button::before {
+
+  position: absolute;
+
+  content: "";
+
+  background: #919191;
+
+  width: 100%;
+
+  height: 1px;
+
+  bottom: 0;
+
+  left: 0;
+
+}
+
+
+
+/* line 105, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_btn.scss */
+
+.line-button:hover {
+
+  color: #009DFF;
+
+}
+
+
+
+/* line 108, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_btn.scss */
+
+.line-button:hover::before {
+
+  background: #009DFF;
+
+}
+
+
+
+/* line 112, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_btn.scss */
+
+.book_now {
+
+  display: inline-block;
+
+  font-size: 14px;
+
+  color: #009DFF;
+
+  border: 1px solid #009DFF;
+
+  text-transform: capitalize;
+
+  padding: 10px 25px;
+
+}
+
+
+
+/* line 119, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_btn.scss */
+
+.book_now:hover {
+
+  background: #009DFF;
+
+  color: #fff;
+
+}
+
+
+
+/* line 2, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_section_title.scss */
+
+.section_title h2{
+
+    font-size: 36px;
+
+    font-weight: 500;
+
+    color: #0B949F;
+
+    text-transform: uppercase;
+
+    position: relative;    
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+.without-coverage, .with-complete {
+
+	padding: 0!important;
+
+}
+
+	.without-coverage h3, .with-complete h3 {
+
+    border-bottom: 1px solid #666666;
+
+    font-size: 18px;
+
+    line-height: 30px;
+
+    color: #666666;
+
+    font-family: "Helvetica Neue Light",sans-serif;
+
+    text-align: center;
+
+    text-transform: uppercase;
+
+}
+
+.with-complete h3 sub {
+
+    font-size: 32px;
+
+    font-family: "Helvetica Neue Light",sans-serif;
+
+    color: #666666;
+
+}
+
+
+
+.without-coverage ul li p {
+
+    display: inline-block;
+
+    margin: 0;
+
+    padding-left: 25px;
+
+    font-size: 15px;
+
+    text-transform: uppercase;
+
+    color: #666666;
+
+    font-family: "Helvetica Neue Regular",sans-serif;
+
+}
+
+.without-coverage ul li p strong {
+
+    color: #004782;
+
+    font-family: "HelveticaNeue-Bold",sans-serif;
+
+    font-size: 18px;
+
+}
+
+.without-coverage ul li{
+
+	padding: 25px 0;
+
+}
+
+.without-coverage ul li img{
+
+	display: inline-block;
+
+	width: 100px;
+
+	margin-top: -20px;
+
+}
+
+.with-complete ul li {
+
+    height: 130px;
+
+    font-size: 60px;
+
+    color: #2ca9f0;
+
+    padding-top: 10px;
+
+    font-weight: 500;
+
+    text-align: center;
+
+    font-family: Century Schoolbook Bold;;
+
+}
+
+.with-complete ul li sup {
+
+    font-size: 32px;
+
+    color: #2ca9f0;
+
+    font-family: "HelveticaNeue light",sans-serif;
+
+}
+
+.section_title p {
+
+    font-size: 20px;
+
+    line-height: 30px;
+
+    color: #5d5d5d;
+
+    font-family: "Helvetica Neue Light",sans-serif;
+
+}
+
+.coverage-section {
+
+    margin-top: 20px;
+
+}
+
+
+
+@media (max-width: 767px) {
+
+  /* line 4, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slick-nav.scss */
+
+  .mobile_menu {
+
+    position: absolute;
+
+    right: 0px;
+
+    width: 100%;
+
+    z-index: 9;
+
+  }	
+
+}
+
+
+
+/* line 13, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slick-nav.scss */
+
+.slicknav_menu .slicknav_nav {
+
+  background: #fff;
+
+    float: right;
+
+    width: 100%;
+
+    padding: 0;
+
+    border-radius: 0px;
+
+    margin-top: 8px;
+
+    position: absolute;
+
+    left: 0px;
+
+    right: 0;
+
+    margin: auto;
+
+    top: 6px;
+
+}
+
+
+
+/* line 28, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slick-nav.scss */
+
+.slicknav_menu .slicknav_nav a:hover {
+
+  background: transparent;
+
+  color: #009DFF;
+
+}
+
+
+
+/* line 32, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slick-nav.scss */
+
+.slicknav_menu .slicknav_nav a.active {
+
+  color: #009DFF;
+
+}
+
+
+
+@media (max-width: 767px) {
+
+  /* line 35, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slick-nav.scss */
+
+  .slicknav_menu .slicknav_nav a i {
+
+    display: none;
+
+  }
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  /* line 35, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slick-nav.scss */
+
+  .slicknav_menu .slicknav_nav a i {
+
+    display: none;
+
+  }
+
+}
+
+
+
+/* line 44, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slick-nav.scss */
+
+.slicknav_menu .slicknav_nav .slicknav_btn {
+
+  background-color: transparent;
+
+  cursor: pointer;
+
+  margin-bottom: 10px;
+
+  margin-top: -40px;
+
+  position: relative;
+
+  z-index: 99;
+
+  border: 1px solid #ddd;
+
+  top: 3px;
+
+  right: 5px;
+
+  top: -36px;
+
+}
+
+
+
+/* line 55, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slick-nav.scss */
+
+.slicknav_menu .slicknav_nav .slicknav_btn .slicknav_icon {
+
+  margin-right: 6px;
+
+  margin-top: 3px;
+
+  position: relative;
+
+  padding-bottom: 3px;
+
+  top: -11px;
+
+  right: -5px;
+
+}
+
+
+
+@media (max-width: 767px) {
+
+  /* line 12, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slick-nav.scss */
+
+  .slicknav_menu {
+
+    margin-right: 0px;
+
+  }
+
+}
+
+
+
+/* line 72, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slick-nav.scss */
+
+.slicknav_nav .slicknav_arrow {
+
+  float: right;
+
+  font-size: 22px;
+
+  position: relative;
+
+  top: -9px;
+
+}
+
+
+
+/* line 78, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slick-nav.scss */
+
+.slicknav_btn {
+
+  background-color: transparent;
+
+  cursor: pointer;
+
+  margin-bottom: 10px;
+
+  position: relative;
+
+  z-index: 99;
+
+  border: none;
+
+  border-radius: 3px;
+
+  top: 5px;
+
+  padding: 5px;
+
+  right: 5px;
+
+  margin-top: -5px;
+
+  top: -31px;
+
+}
+
+
+
+/* line 92, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slick-nav.scss */
+
+.slicknav_btn {
+
+  background-color: transparent;
+
+  cursor: pointer;
+
+  margin-bottom: 10px;
+
+  position: relative;
+
+  z-index: 99;
+
+  border: none;
+
+  border-radius: 3px;
+
+  top: 5px;
+
+  padding: 5px;
+
+  right: 0;
+
+  margin-top: -5px;
+
+  top: -36px;
+
+}
+
+
+
+/* line 107, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slick-nav.scss */
+
+.slicknav_btn {
+
+  background-color: transparent;
+
+  cursor: pointer;
+
+  margin-bottom: 10px;
+
+  position: relative;
+
+  z-index: 99;
+
+  border: none;
+
+  border-radius: 3px;
+
+  top: 5px;
+
+  padding: 5px;
+
+  right: 0;
+
+  margin-top: -5px;
+
+  top: -30px;
+
+}
+
+
+
+/* line 122, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slick-nav.scss */
+
+.slicknav_icon-bar {
+
+  background: #000 !important;
+
+}
+
+
+
+/* line 1, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+.header-area {
+
+  left: 0;
+
+  right: 0;
+
+  width: 100%;
+
+  top: 0;
+
+  z-index: 9;
+
+}
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  /* line 1, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+  .header-area {
+
+    padding-top: 0;
+
+  }
+
+}
+
+
+
+/* line 15, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+.header-area .main-header-area {
+
+  background: #bfe5fa;;
+
+}
+
+
+
+/* line 31, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+.header-area .main-header-area .logo-img {
+
+  text-align: center;
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  /* line 31, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+  .header-area .main-header-area .logo-img {
+
+    text-align: left;
+
+  }
+
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+  /* line 31, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+  .header-area .main-header-area .logo-img {
+
+    text-align: left;
+
+  }
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  /* line 45, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+  .header-area .main-header-area .logo-img img {
+
+    width: 70px;
+
+  }
+
+}
+
+
+
+/* line 57, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+.header-area .main-header-area .Appointment {
+
+  display: -webkit-box;
+
+  display: -moz-box;
+
+  display: -ms-flexbox;
+
+  display: -webkit-flex;
+
+  display: flex;
+
+  -webkit-align-items: center;
+
+  -moz-align-items: center;
+
+  -ms-align-items: center;
+
+  align-items: center;
+
+  -webkit-justify-content: flex-end;
+
+  -moz-justify-content: flex-end;
+
+  -ms-justify-content: flex-end;
+
+  justify-content: flex-end;
+
+  -ms-flex-pack: flex-end;
+
+}
+
+
+
+/* line 63, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+.header-area .main-header-area .Appointment .socail_links ul li {
+
+  display: inline-block;
+
+}
+
+
+
+/* line 66, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+.header-area .main-header-area .Appointment .socail_links ul li a {
+
+  color: #A8A7A0;
+
+  margin: 0 10px;
+
+  font-size: 15px;
+
+}
+
+
+
+/* line 70, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+.header-area .main-header-area .Appointment .socail_links ul li a:hover {
+
+  color: #fff;
+
+}
+
+
+
+/* line 77, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+.header-area .main-header-area .Appointment .book_btn {
+
+  margin-left: 30px;
+
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+  /* line 77, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+  .header-area .main-header-area .Appointment .book_btn {
+
+    margin-left: 0;
+
+  }
+
+}
+
+
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+  /* line 77, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+  .header-area .main-header-area .Appointment .book_btn {
+
+    margin-left: 0;
+
+  }
+
+}
+
+
+
+/* line 85, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+.header-area .main-header-area .Appointment .book_btn a {
+
+  background: #009DFF;
+
+  padding: 12px 26px;
+
+  font-size: 14px;
+
+  font-weight: 400;
+
+  border: 1px solid transparent;
+
+  color: #fff;
+
+  -webkit-border-radius: 4px;
+
+  -moz-border-radius: 4px;
+
+  border-radius: 4px;
+
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+  /* line 85, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+  .header-area .main-header-area .Appointment .book_btn a {
+
+    padding: 12px 20px;
+
+  }
+
+}
+
+
+
+/* line 96, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+.header-area .main-header-area .Appointment .book_btn a:hover {
+
+  background: #fff;
+
+  color: #009DFF;
+
+  border: 1px solid #009DFF;
+
+}
+
+
+
+/* line 104, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+.header-area .main-header-area .main-menu {
+
+  text-align: center;
+
+}
+
+ul#navigation {
+
+    margin: 0;
+
+}
+
+
+
+/* line 108, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+.header-area .main-header-area .main-menu ul li {
+
+  display: inline-block;
+
+  position: relative;
+
+  margin-left: 40px;
+
+}
+
+
+
+/* line 119, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+.header-area .main-header-area .main-menu ul li a {
+
+  color: #5E495B;
+
+  font-size: 16px;
+
+  font-weight: 500;
+
+  display: inline-block;
+
+  padding: 20px 0;
+
+  /*font-family: 'Roboto', sans-serif;*/
+
+  font-family: 'Montserrat', sans-serif;
+
+  position: relative;
+
+  text-transform: uppercase;
+
+  text-decoration: none;
+
+}
+
+
+
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+  /* line 119, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+  .header-area .main-header-area .main-menu ul li a {
+
+    font-size: 15px;
+
+  }
+
+}
+
+
+
+/* line 138, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+.header-area .main-header-area .main-menu ul li a i {
+
+  font-size: 9px;
+
+}
+
+
+
+@media (max-width: 767px) {
+
+  /* line 138, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+  .header-area .main-header-area .main-menu ul li a i {
+
+    display: none !important;
+
+  }
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  /* line 138, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+  .header-area .main-header-area .main-menu ul li a i {
+
+    display: none !important;
+
+  }
+
+}
+
+
+
+/* line 147, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+.header-area .main-header-area .main-menu ul li a::before {
+
+  position: absolute;
+
+  content: "";
+
+  background: #fff;
+
+  width: 100%;
+
+  height: 2px;
+
+  bottom: 0;
+
+  left: 0;
+
+  opacity: 0;
+
+  transform: scaleX(0);
+
+  -webkit-transition: 0.3s;
+
+  -moz-transition: 0.3s;
+
+  -o-transition: 0.3s;
+
+  transition: 0.3s;
+
+}
+
+
+
+/* line 159, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+.header-area .main-header-area .main-menu ul li a:hover::before {
+
+  opacity: 1;
+
+  transform: scaleX(1);
+
+}
+
+
+
+/* line 164, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+.header-area .main-header-area .main-menu ul li a.active::before {
+
+  opacity: 1;
+
+  transform: scaleX(1);
+
+}
+
+
+
+/* line 170, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+.header-area .main-header-area .main-menu ul li:hover > a {
+
+  color: #E96057 !important;
+
+}
+
+
+
+/* line 173, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+.header-area .main-header-area .main-menu ul li .submenu {
+
+  position: absolute;
+
+  left: 0;
+
+  top: 120%;
+
+  background: #fff;
+
+  width: 200px;
+
+  z-index: 9;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.02);
+
+  opacity: 0;
+
+  visibility: hidden;
+
+  text-align: left;
+
+  -webkit-transition: 0.6s;
+
+  -moz-transition: 0.6s;
+
+  -o-transition: 0.6s;
+
+  transition: 0.6s;
+
+  text-align: left;
+
+}
+
+
+
+/* line 187, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+.header-area .main-header-area .main-menu ul li .submenu li {
+
+  display: block;
+
+  margin-left: 0;
+
+}
+
+
+
+/* line 190, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+.header-area .main-header-area .main-menu ul li .submenu li a {
+
+  padding: 10px 15px;
+
+  position: inherit;
+
+  -webkit-transition: 0.3s;
+
+  -moz-transition: 0.3s;
+
+  -o-transition: 0.3s;
+
+  transition: 0.3s;
+
+  display: block;
+
+  color: #000;
+
+}
+
+
+
+/* line 196, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+.header-area .main-header-area .main-menu ul li .submenu li a::before {
+
+  display: none;
+
+}
+
+
+
+/* line 200, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+.header-area .main-header-area .main-menu ul li .submenu li:hover a {
+
+  color: #000;
+
+}
+
+
+
+/* line 205, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+.header-area .main-header-area .main-menu ul li:hover > .submenu {
+
+  opacity: 1;
+
+  visibility: visible;
+
+  top: 100%;
+
+}
+
+
+
+/* line 210, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+.header-area .main-header-area .main-menu ul li:hover > a::before {
+
+  opacity: 1;
+
+  transform: scaleX(1);
+
+}
+
+
+
+/* line 214, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+.header-area .main-header-area .main-menu ul li:first-child a {
+
+  padding-left: 0;
+
+  text-decoration: none;
+
+}
+
+
+
+/* line 220, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+.header-area .main-header-area.sticky {
+
+  box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+
+  position: fixed;
+
+  width: 100%;
+
+  top: -70px;
+
+  left: 0;
+
+  right: 0;
+
+  z-index: 99;
+
+  transform: translateY(70px);
+
+  transition: transform 500ms ease, background 500ms ease;
+
+  -webkit-transition: transform 500ms ease, background 500ms ease;
+
+  box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+
+  background: rgba(255, 255, 255, 0.96);
+
+}
+
+
+
+@media (max-width: 767px) {
+
+  /* line 220, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+  .header-area .main-header-area.sticky {
+
+    padding: 10px 10px;
+
+  }
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  /* line 220, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+  .header-area .main-header-area.sticky {
+
+    padding: 10px 10px;
+
+  }
+
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+  /* line 220, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+  .header-area .main-header-area.sticky {
+
+    padding: 10px 20px;
+
+  }
+
+}
+
+
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+  /* line 220, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+  .header-area .main-header-area.sticky {
+
+    padding: 10px 20px;
+
+  }
+
+}
+
+
+
+/* line 246, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+.header-area .main-header-area.sticky .main-menu {
+
+  padding: 0;
+
+}
+
+
+
+/* line 252, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+.header-area .header-top_area {
+
+    padding: 10px 2em 0 0;
+
+    background: #ffffff;
+
+}
+
+
+
+/* line 255, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+.header-area .header-top_area .social_media_links {
+
+  text-align: center;
+
+}
+
+
+
+
+
+/* line 260, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+.header-area .header-top_area .social_media_links a {
+
+  font-size: 18px;
+
+  color: #C7C7C7;
+
+  margin-left: 32px;
+
+}
+
+
+
+/* line 264, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+.header-area .header-top_area .social_media_links a:hover {
+
+  color: #eb592d;
+
+}
+
+
+
+/* line 269, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+.header-area .header-top_area .short_contact_list {
+
+	text-align: right;
+
+    padding-top: 35px;
+
+}
+
+.short_contact_list ul {
+
+    margin: 0;
+
+}
+
+.short_contact_list a i {
+
+    background: #E96057;
+
+    color: #fff;
+
+    padding: 10px;
+
+    border-radius: 3px;
+
+    font-size: 16px;
+
+    margin-right: 10px;
+
+}
+
+
+
+/* line 275, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+.header-area .header-top_area .short_contact_list ul li {
+
+  display: block;
+
+}
+
+
+
+/* line 277, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_header.scss */
+
+.header-area .header-top_area .short_contact_list ul li a {
+
+	font-size: 24px;
+
+    color: #E96057;
+
+    font-weight: 500;    
+
+    font-family: 'Montserrat', sans-serif;
+
+	text-decoration: none;
+
+}
+
+.header-area .header-top_area .short_contact_list ul li a span {
+
+	font-size: 18px;
+
+    color: #5E495B;
+
+    /*font-family: 'Roboto', sans-serif;*/
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-weight: 500;
+
+    text-transform: uppercase;
+
+	display: block;
+
+}
+
+
+
+/* line 1, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
+
+.slider_bg_1 {
+
+  background-image: url(../img/home-page-background.jpg);
+
+    background-blend-mode: color;
+
+    background-color: rgba(0,0,0,0.3 );
+
+}
+
+
+
+/* line 4, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
+
+.slider_area {
+
+  position: relative;
+
+  z-index: 0;
+
+}
+
+
+
+/* line 7, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
+
+.slider_area .single_slider {
+
+    height: 550px;
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+}
+
+
+
+
+
+/* line 27, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
+
+.slider_area .single_slider .slider_text {
+
+  position: relative;
+
+  z-index: 6;
+
+  
+
+}
+
+
+
+/* line 30, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
+
+.slider_area .single_slider .slider_text h1 {
+
+	color: #ffffff;
+
+    /*font-family: 'Roboto', sans-serif;*/
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 39px;
+
+    font-weight: 500;
+
+    line-height: 56px;
+
+    text-transform: uppercase;
+
+}
+
+div#ready-2 h1 {
+
+    /*padding-top: 125px;*/
+
+    margin-top: 0
+
+}
+
+.slider_text.home-slide h1 {
+
+    font-size: 68px!important;
+
+    text-align: center;
+
+    line-height: 72px!important;
+
+}
+
+div#ready-1 {
+
+    position: absolute;
+
+    top: 45%;
+
+    left: 0;
+
+	right: 0;
+
+	margin: 0 auto;
+
+    width: 90%;
+
+}
+
+div#ready-2 {
+
+    display: none;
+
+}
+
+div#ready-3 {
+
+    display: none;
+
+}
+
+ul.home-list li {
+
+    color: #fff;
+
+    font-size: 24px;
+
+    font-weight: 500;    
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+ul.home-list li i {
+
+    border-radius: 26px;
+
+    margin-right: 15px;
+
+    margin-bottom: 15px;
+
+    text-align: center;
+
+    color: #fff;
+
+    background: #0B949F;
+
+    padding: 8px;
+
+}
+
+.screen {
+
+    padding: 25px 10px;
+
+    background: rgba(0,0,0, 0.4);
+
+}
+
+.screen h3 {
+
+    text-transform: uppercase;
+
+    padding: 0 40px 10px;
+
+    text-align: center;
+
+    font-size: 22px;
+
+    font-weight: 500;
+
+    line-height: 1.5;
+
+    color: #fff;
+
+    margin: 0;    
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.screen h3 span {
+
+    color: #0B949F;
+
+}
+
+.contact-form p {
+
+    padding: 0 25px 13px 35px;
+
+    font-size: 11px;
+
+    margin: 0;
+
+    color: #fff;
+
+    line-height: 1.5;	
+
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.contact-form .form-group.form-check {
+
+    padding: 0 35px;
+
+}
+
+input.btn.btn-primary {
+
+    border-radius: 5px;
+
+    letter-spacing: normal;
+
+    font-weight: 500;
+
+    font-size: 16px;
+
+    padding: 10px 25px;
+
+    margin-left: 110px;
+
+	text-transform: uppercase;	
+
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+/* line 37, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
+
+.slider_area .single_slider .slider_text h1 span {
+
+  font-weight: 500;
+
+  color: #0B949F;  
+
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+section#features {
+
+    padding: 50px 0 0px;
+
+}
+
+.section-heading h2 {
+
+    font-size: 36px;
+
+    font-weight: 500;
+
+    color: #0B949F;    
+
+    font-family: 'Montserrat', sans-serif;
+
+    text-transform: uppercase;
+
+
+
+}
+
+.section-heading.text-center {
+
+    padding-bottom: 35px;
+
+}
+
+.section-heading.text-center p {
+
+    font-size: 22px!important;
+
+    color: #666666;
+
+    font-weight: 300;    
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.feature-item h3 {
+
+    font-weight: 700;
+
+    color: #5E495B;
+
+    font-size: 22px;    
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.feature-item img {
+
+    height: 100px;
+
+	margin-bottom: 20px;
+
+}
+
+.feature-item p {
+
+    color: #666666;
+
+    font-size: 16px;
+
+    line-height: 1.75;
+
+    text-align: center;
+
+    font-weight: 300;    
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+p.cover-repair {
+
+    font-size: 12px;
+
+    font-weight: 300;
+
+    line-height: 1.55;
+
+    color: #666666;
+
+    margin-top: 20px;
+
+    margin-bottom: 10px;
+
+    /*font-family: 'Roboto', sans-serif;*/
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+hr {
+
+    max-width: 150px;
+
+    margin: 15px auto 0;
+
+    border-width: 1px;
+
+    border-color: #666666;
+
+}
+
+
+
+.header-area .header-top_area.skin_srolld {
+
+	position: fixed;
+
+    top:0!important;
+
+	z-index: 100009999;
+
+	width: 100%;
+
+	height: 95px;
+
+}
+
+.logo img {
+
+    max-height: 100px;
+
+	transition: all 0.2s;
+
+}
+
+
+
+.skin_srolld .logo img {
+
+    max-height: 70px;
+
+	transition: all 0.1s;
+
+}
+
+.skin_srolld .short_contact_list {
+
+    text-align: right;
+
+    padding-top: 10px!important;
+
+}
+
+.mapouter{
+
+	position:relative;
+
+	text-align:right;
+
+	height:550px;
+
+	width:100%;
+
+}
+
+.gmap_canvas {
+
+	overflow:hidden;
+
+	background:none!important;
+
+	height:550px;width:100%;
+
+}
+
+.contact-area {
+
+    position: relative;
+
+}
+
+.mapouter iframe {
+
+    height: 550px;
+
+    width: 100%;
+
+}
+
+.contact-informatiom h3 {
+
+    color: #666666;
+
+    font-weight: 500;
+
+    padding-bottom: 30px;    
+
+    font-family: 'Montserrat', sans-serif;
+
+	margin: 0;
+
+	
+
+}
+
+.contact-informatiom {
+
+    position: absolute;
+
+    top: 10em;
+
+    left: 5em;
+
+    background: #ffffff;
+
+    padding: 40px 35px 20px 35px;
+
+    border-radius: 5px;
+
+}
+
+.contact-informatiom ul li {
+
+    padding-bottom: 15px;
+
+    font-size: 16px;
+
+    padding-left: 55px;
+
+    color: #666666;
+
+    line-height: 1.5;
+
+    font-weight: 300;    
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.contact-informatiom ul li a{
+
+   color: #2ca9f0;
+
+}
+
+.contact-informatiom ul li i {
+
+    border-radius: 3px;
+
+    margin-right: 15px;
+
+    text-align: center;
+
+    color: #fff;
+
+    background: #2ca9f0;
+
+    padding: 9px 12px;
+
+    margin-left: -55px;
+
+    font-size: 22px;
+
+
+
+}
+
+.faq-section.faq-inner {
+
+    padding-top: 4em;
+
+}
+
+.faq-section {
+
+    padding: 3em 5em;
+
+}
+
+/*.service_area .col-sm-4 {
+
+    padding: 0;
+
+    margin-bottom: 20px;
+
+}*/
+
+/* line 4, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_service.scss */
+
+.service_area {
+
+  padding: 3em 5em 3em;
+
+}
+
+.primary-border {
+
+    border: 1px solid #2ca9f0;
+
+}
+
+.text-Primary {
+
+    color: #2ca9f0 !important;
+
+}
+
+.footer {
+
+  background-repeat: no-repeat;
+
+  background-position: center center;
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+
+  background: #f8f8f8;
+
+  position: relative;
+
+  z-index: 0;
+
+  clear: both;
+
+}
+
+
+
+/* line 17, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_footer.scss */
+
+.footer .footer_top .footer_widget .address_text {
+
+  font-size: 16px;
+
+  font-weight: 400;
+
+  color: #7a7a7a;
+
+  line-height: 28px;
+
+  /*font-family: 'Roboto', sans-serif;;*/
+
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+/* line 49, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_footer.scss */
+
+.footer .footer_top .footer_widget .footer_title {
+
+  font-size: 25px;
+
+  font-weight: 500;
+
+  color: #2e2e2e;
+
+  text-transform: capitalize;
+
+  margin-bottom: 36px;
+
+  /*font-family: 'Roboto', sans-serif;;*/
+
+  font-family: 'Montserrat', sans-serif;
+
+  position: relative;
+
+}
+
+
+
+
+
+/* line 196, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_footer.scss */
+
+.footer .copy-right_text {
+
+    background-color: #5e495b;
+
+}
+
+
+
+/* line 198, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_footer.scss */
+
+.footer .copy-right_text .copy_right {
+
+	font-size: 14px;
+
+    color: rgba(255,255,255,.7);
+
+    margin-bottom: 0;
+
+    font-weight: 300;
+
+    padding: 10px 0;
+
+}
+
+
+
+
+
+/* line 211, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_footer.scss */
+
+.footer .socail_links {
+
+  margin-top: 26px;
+
+}
+
+
+
+/* line 3, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_contact.scss */
+
+.dropdown .dropdown-menu {
+
+  -webkit-transition: all 0.3s;
+
+  -moz-transition: all 0.3s;
+
+  -ms-transition: all 0.3s;
+
+  -o-transition: all 0.3s;
+
+  transition: all 0.3s;
+
+}
+
+
+
+/* line 10, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_contact.scss */
+
+.contact-info {
+
+    margin-top: 30px!important;
+
+}
+
+/*.contact-form-inner {
+
+    padding: 0 100px 0 0;
+
+}*/
+
+/* line 13, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_contact.scss */
+
+.contact-info__icon {
+
+  margin-right: 20px;
+
+}
+
+.contact-form-inner h3 {
+
+    color: #0b949f;
+
+    padding-left: 20px;
+
+    padding-bottom: 10px;
+
+    font-weight: 500;    
+
+    font-family: 'Montserrat', sans-serif;
+
+	text-align: center;
+
+}
+
+.contact-form-two p {
+
+    padding-left: 20px;
+
+    font-size: 10px;
+
+	padding-bottom: 10px;    
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+/* line 16, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_contact.scss */
+
+.contact-address {
+
+    padding-top: 25px;
+
+}
+
+.contact-info__icon i, .contact-info__icon span {
+
+  color: #e96057;
+
+  font-size: 26px;
+
+  padding-top: 2px;
+
+}
+
+.btn.btn-custom {
+
+    background: #e96057;
+
+    color: #fff;
+
+    margin-left: 20px;
+
+    margin-bottom: 25px;
+
+	text-transform: uppercase;	
+
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+/* line 24, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_contact.scss */
+
+.contact-page .media-body h3 {
+
+	margin-bottom: 0;
+
+    font-size: 16px;
+
+    color: #666666;
+
+    line-height: 1.75;
+
+    font-weight: 300;	
+
+  font-family: 'Montserrat', sans-serif;
+
+	margin: 0;
+
+	text-align: left;
+
+	padding-left: 5px;
+
+    padding-bottom: 5px;
+
+	
+
+}
+
+.contact-page .contact-info__icon {
+
+    margin-right: 5px;
+
+    margin-left: 15px;
+
+}
+
+.contact-info .media-body h3 {
+
+	    margin-bottom: 0;
+
+    font-size: 16px;
+
+    color: #666666;
+
+    line-height: 1.75;
+
+    font-weight: 300;	
+
+  font-family: 'Montserrat', sans-serif;
+
+		margin: 0;	
+
+}
+
+
+
+/* line 30, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_contact.scss */
+
+.contact-info .media-body h3 a:hover {
+
+  color: #222222;
+
+}
+
+
+
+/* line 36, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_contact.scss */
+
+.contact-info .media-body p {
+
+  color: #666666;
+
+}
+
+
+
+
+
+/*=================== contact form start ====================*/
+
+/* line 45, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_contact.scss */
+
+.contact-title {
+
+  font-size: 27px;
+
+  font-weight: 600;
+
+  margin-bottom: 20px;
+
+}
+
+
+
+/* line 53, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_contact.scss */
+
+.form-contact label {
+
+  font-size: 14px;
+
+}
+
+
+
+/* line 57, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_contact.scss */
+
+.form-contact .form-group {
+
+  margin-bottom: 30px;
+
+}
+
+
+
+/* line 61, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_contact.scss */
+
+.form-contact .form-control {
+
+  border: 1px solid #e5e6e9;
+
+  border-radius: 0px;
+
+  height: 48px;
+
+  padding-left: 18px;
+
+  font-size: 13px;
+
+  background: transparent;
+
+}
+
+
+
+
+
+
+
+/* line 133, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_contact.scss */
+
+.contact-section {
+
+    padding: 4em 0 3em;
+
+	background: #fdfdfd;
+
+}
+
+
+
+
+
+/* line 85, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_elements.scss */
+
+b,
+
+sup,
+
+sub,
+
+u,
+
+del {
+
+  color: #222222;
+
+}
+
+
+
+/* line 93, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_elements.scss */
+
+h1 {
+
+  font-size: 36px;
+
+}
+
+
+
+/* line 97, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_elements.scss */
+
+h2 {
+
+  font-size: 30px;
+
+}
+
+
+
+/* line 101, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_elements.scss */
+
+h3 {
+
+  font-size: 24px;
+
+}
+
+
+
+/* line 105, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_elements.scss */
+
+h4 {
+
+  font-size: 18px;
+
+}
+
+
+
+/* line 109, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_elements.scss */
+
+h5 {
+
+  font-size: 16px;
+
+}
+
+
+
+/* line 113, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_elements.scss */
+
+h6 {
+
+  font-size: 14px;
+
+}
+
+
+
+/* line 117, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_elements.scss */
+
+h1,
+
+h2,
+
+h3,
+
+h4,
+
+h5,
+
+h6 {
+
+  line-height: 1.2em;
+
+}
+
+
+
+/* line 127, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_elements.scss */
+
+.typography h1,
+
+.typography h2,
+
+.typography h3,
+
+.typography h4,
+
+.typography h5,
+
+.typography h6 {
+
+  color: #828bb2;
+
+}
+
+
+
+
+
+/*.home-plan {
+
+    padding: 5em;
+
+}*/
+
+.plan-heading h1 {
+
+    text-align: center;
+
+    font-size: 36px;
+
+    font-weight: 500;
+
+    line-height: 60px;
+
+    color: #0B949F;
+
+    /*font-family: 'Roboto', sans-serif;*/
+
+    font-family: 'Montserrat', sans-serif;
+
+    text-transform: uppercase;
+
+    position: relative;
+
+	margin: 0;
+
+}
+
+.plan-heading  {
+
+    padding-bottom: 40px;
+
+}
+
+
+
+.plan-heading p {
+
+    font-size: 22px;
+
+    color: #666666;
+
+    text-align: center;
+
+    width: 70%;
+
+    margin: 30px auto 0;    
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-weight: 300;
+
+}
+
+.plan-heading p strong {
+
+    color: #00aeef;
+
+    font-weight: 700;
+
+}
+
+.col-sm-8.plan-table>h2 {
+
+    text-transform: uppercase;
+
+    font-weight: 900;
+
+    color: #ff0000;
+
+    font-size: 28px;
+
+	line-height: 1.75;
+
+	padding-left: 210px;
+
+	margin: 0;	
+
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.tabel-inner.col-sm-12 tr {
+
+text-align: center;
+
+}
+
+.tabel-inner.col-sm-12 tr td {
+
+    border: 1px solid #bfbfbf;
+
+    color: #666666;
+
+    font-size: 15px;
+
+    line-height: 1.75;	
+
+  font-family: 'Montserrat', sans-serif;
+
+    font-weight: 300;
+
+}
+
+th.combo span {
+
+    transform: skewX(-20deg)!important;
+
+    display: inline-block;
+
+}
+
+.tabel-inner.col-sm-12 tr td img {
+
+    height: 30px;
+
+    padding: 5px 70px;
+
+}
+
+.tabel-inner tr:nth-child(even) {
+
+    background: #f2f2f2;
+
+}
+
+.tabel-inner.col-sm-12 tr th {
+
+    color: #0054a6;
+
+    text-transform: uppercase;
+
+    width: 24%;
+
+    font-weight: 900;    
+
+    font-family: 'Montserrat', sans-serif;
+
+	margin-bottom: 5px;
+
+	text-align: center;
+
+    font-size: 16px;
+
+}
+
+th.cover {
+
+    display: inline-block;
+
+    background: #cbcbcb;
+
+    padding: 5px 10px!important;
+
+    margin-left: 13px;
+
+}
+
+th.system {
+
+    display: inline-block;
+
+    background: #aedef9;
+
+    padding: 5px 55px!important;
+
+    margin-left: 10px;
+
+}
+
+th.combo {
+
+    display: inline-block;
+
+    background: #f0e82c;
+
+    padding: 5px 60px!important;
+
+    margin-left: -10px;
+
+    transform: skewX(20deg);
+
+}
+
+th.appliances {
+
+    display: inline-block;
+
+    background: #aedef9;
+
+    padding: 5px 50px!important;
+
+    margin-left: -15px;
+
+}
+
+h2.plan-quote {
+
+    text-align: center;
+
+    margin: 0;
+
+}
+
+h2.plan-quote a {
+
+    color: #fff;
+
+    text-align: center;
+
+    padding: 10px 110px;
+
+    background: #83ccf6;
+
+    display: inline-block;
+
+    text-transform: uppercase;
+
+    font-weight: 900;
+
+    margin-left: 30px;
+
+	font-size: 28px;	
+
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.optional-coverage {
+
+    padding-left: 25px;
+
+    margin-top: 50px;
+
+}
+
+.optional-coverage h2 {
+
+    background: #aedef9;
+
+    text-transform: uppercase;
+
+    font-weight: 900;
+
+    font-size: 22px;
+
+    padding: 7px 20px;
+
+    color: #0054a6;
+
+    margin: 0 auto 15px;    
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.optional-table {
+
+    font-size: 15px;
+
+    text-align: center;
+
+    line-height: 1.75;
+
+    color: #666666;    
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-weight: 300;
+
+}
+
+.optional-table tr td {
+
+    padding-bottom: 5px;
+
+}
+
+table.optional-table td:nth-child(1) {
+
+    border-right: 1px solid #666666;
+
+    padding-right: 20px;
+
+}
+
+table.optional-table td:nth-child(2) {
+
+    padding-left: 20px;
+
+}
+
+.why-choose {
+
+    padding: 3em 5em;
+
+}
+
+.why-choose-content h2 {
+
+    font-weight: 500;
+
+    color: #0B949F;
+
+    /*font-family: 'roboto', sans-serif;*/
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 36px;
+
+    text-transform: uppercase;
+
+    text-align: center;
+
+	    padding-bottom: 20px;
+
+}
+
+.why-choose-content h2 span {
+
+    color: #52C9EF;
+
+}
+
+.why-choose-content p {
+
+    font-size: 18px;
+
+    color: #666666;
+
+    font-weight: 300;
+
+    /*font-family: 'Roboto', sans-serif;*/
+
+    font-family: 'Montserrat', sans-serif;
+
+    text-align: center;
+
+    padding: 0 10%;
+
+    line-height: 1.5;
+
+}
+
+.why-choose-content {
+
+    padding-bottom: 30px;
+
+}
+
+.indentity {
+
+	margin: 0!important
+
+}
+
+figure.testimonial {
+
+	position: relative;
+
+	float: left;
+
+	overflow: hidden;
+
+	margin: 10px 1%;
+
+	padding: 0 20px;
+
+	text-align: left;
+
+	box-shadow: none !important;
+
+}
+
+figure.testimonial * {
+
+	-webkit-box-sizing: border-box;
+
+	box-sizing: border-box;
+
+	-webkit-transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+
+	transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+
+}
+
+figure.testimonial img {
+
+	max-width: 100%;
+
+    vertical-align: middle;
+
+    width: 90px;
+
+    padding-bottom: 10px;
+
+}
+
+figure.testimonial blockquote {
+
+	background-color: #fff;
+
+	display: block;
+
+	font-size: 16px;
+
+	font-weight: 300;
+
+	line-height: 1.75;
+
+	margin: 0;
+
+	padding: 10px 50px 30px;
+
+	position: relative;
+
+	text-align: center;	
+
+  font-family: 'Montserrat', sans-serif;
+
+	border: none;
+
+	color:#666666;
+
+}
+
+figure.testimonial .btn {
+
+	top: 100%;
+
+	width: 0;
+
+	height: 0;
+
+	border-left: 0 solid transparent;
+
+	border-right: 25px solid transparent;
+
+	border-top: 25px solid #fff;
+
+	margin: 0;
+
+	position: absolute;
+
+}
+
+figure.testimonial .peopl {
+
+	padding: 0;
+
+    margin: 0;
+
+    color: #000;
+
+    text-align: center;
+
+}
+
+figure.testimonial .peopl h3 {
+
+	opacity: 1;    
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-weight: 300;
+
+    font-size: 22px;
+
+    margin: 0;
+
+	color: #666666;
+
+}
+
+.slick-slider {
+
+	position: relative;
+
+	
+
+	display: block;
+
+	box-sizing: border-box;
+
+	user-select: none;
+
+	-webkit-touch-callout: none;
+
+	-khtml-user-select: none;
+
+	-ms-touch-action: pan-y;
+
+	touch-action: pan-y;
+
+	-webkit-tap-highlight-color: transparent;
+
+}
+
+.slick-list {
+
+	position: relative;
+
+	display: block;
+
+	overflow: hidden;
+
+	margin: 0;
+
+	padding: 0;
+
+}
+
+.slick-list:focus {
+
+	outline: none;
+
+}
+
+.slick-list.dragging {
+
+	cursor: pointer;
+
+	cursor: hand;
+
+}
+
+.slick-slider .slick-track, .slick-slider .slick-list {
+
+	transform: translate3d(0, 0, 0);
+
+}
+
+.slick-track {
+
+	position: relative;
+
+	top: 0;
+
+	left: 0;
+
+	display: block;
+
+}
+
+.slick-track:before, .slick-track:after {
+
+	display: table;
+
+	content: '';
+
+}
+
+.slick-track:after {
+
+	clear: both;
+
+}
+
+.slick-loading .slick-track {
+
+	visibility: hidden;
+
+}
+
+.slick-slide {
+
+	display: none;
+
+	float: left;
+
+	height: 100%;
+
+	min-height: 1px;
+
+}
+
+.slick-slide img {
+
+	display: inline-block;
+
+}
+
+.slick-slide.slick-loading img {
+
+	display: none;
+
+}
+
+.slick-slide.dragging img {
+
+	pointer-events: none;
+
+}
+
+.slick-initialized .slick-slide {
+
+	display: block;
+
+}
+
+.slick-loading .slick-slide {
+
+	visibility: hidden;
+
+}
+
+.slick-vertical .slick-slide {
+
+	display: block;
+
+	height: auto;
+
+	border: 1px solid transparent;
+
+}
+
+.slick-btn.slick-hidden {
+
+	display: none;
+
+}
+
+ 
+
+.slick-prev, .slick-next {
+
+	font-size: 0;
+
+	line-height: 0;
+
+	position: absolute;
+
+	top: 40%;
+
+	display: block;
+
+	width: 32px
+
+	height: 57px;
+
+	padding: 0;
+
+	transform: translate(0, -50%);
+
+	cursor: pointer;
+
+	color: transparent;
+
+	border: none;
+
+	outline: none;
+
+	background: transparent;
+
+}
+
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+
+	color: transparent;
+
+	outline: none;
+
+	background: transparent;
+
+}
+
+.slick-prev:hover:before, .slick-prev:focus:before, .slick-next:hover:before, .slick-next:focus:before {
+
+	opacity: 1;
+
+}
+
+.slick-prev:before, .slick-next:before {
+
+	font-family: "FontAwesome";
+
+	font-size: 56px;
+
+	line-height: 1;
+
+	opacity: 1;
+
+	color: #e96057;
+
+	-webkit-font-smoothing: antialiased;
+
+	-moz-osx-font-smoothing: grayscale;
+
+}
+
+.slick-prev {
+
+	left: -40px;
+
+}
+
+.slick-prev:before {
+
+	content: "\f100";
+
+}
+
+.slick-next {
+
+	right: -40px;
+
+}
+
+.slick-next:before {
+
+	content: "\f101";
+
+}
+
+
+
+
+
+
+
+.faq-content-inner .card-header h2 {
+
+    margin: auto;    
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+.faq-content.col-sm-12 h3 {
+
+    font-weight: 500;
+
+    color: #0B949F;
+
+    text-transform: uppercase;
+
+    position: relative;    
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 36px;
+
+    text-align: center;
+
+}
+
+.faq-content-inner {
+
+    padding: 3em 0;
+
+	    width: 100%;
+
+}
+
+.accordion .fa {
+
+    position: absolute;
+
+    right: 35px;
+
+    top: 0;
+
+    width: 16px;
+
+    height: 18px;
+
+    bottom: 0;
+
+    margin: auto;
+
+}
+
+.faq-content-inner .card-header {
+
+    background: #0B949F;
+
+    padding: 5px;
+
+}
+
+.faq-content-inner .card-header button.btn.btn-link.collapsed,
+
+.faq-content-inner .card-header .btn:not(:disabled):not(.disabled) {
+
+    font-weight: 500;
+
+    color: #ffffff!important;
+
+    font-size: 18px;
+
+    word-break: break-word;
+
+    white-space: break-spaces;
+
+    text-align: left;
+
+    padding-right: 55px;
+
+} 
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+
+    outline: none!important;
+
+    outline: none!important;
+
+    outline-offset: none!important;
+
+}
+
+.privacy-policy-section {
+
+    padding: 4em 5em 3em;
+
+} 
+
+.privacy-policy h2, .term-and-conditions h2 {
+
+    text-align: left;
+
+    font-size: 32px;
+
+    font-weight: 500;
+
+    line-height: 60px;
+
+    color: #2ca9f0;
+
+    /*font-family: 'Roboto', sans-serif;*/
+
+    font-family: 'Montserrat', sans-serif;
+
+    text-transform: capitalize;
+
+    position: relative;
+
+    margin: 0;
+
+} 
+
+.col-sm-12.term-and-conditions h2 {
+
+    padding-top: 30px;
+
+}
+
+  .privacy-policy h3, .term-and-conditions h3{
+
+    text-align: left;
+
+    font-size: 24px;
+
+    font-weight: 500;
+
+    line-height: 1.5;
+
+    color: #2ca9f0;
+
+    /*font-family: 'Roboto', sans-serif;*/
+
+    font-family: 'Montserrat', sans-serif;
+
+    text-transform: capitalize;
+
+    position: relative;
+
+    margin: 0;
+
+    padding-top: 20px;
+
+}
+
+.privacy-policy ul, .term-and-conditions ul {
+
+    padding-top: 15px;
+
+}
+
+.privacy-policy ul li, .term-and-conditions ul li {
+
+    font-size: 15px;
+
+    font-weight: 300;
+
+    line-height: 1.75;
+
+    color: #666666;
+
+    /*font-family: 'Roboto', sans-serif;*/
+
+    font-family: 'Montserrat', sans-serif;
+
+	padding-bottom: 10px;
+
+	
+
+}
+
+.privacy-policy ul li:before, .term-and-conditions ul li:before {
+
+    content: "✔";
+
+    color: rgb(255, 255, 255);
+
+    margin-right: 10px;
+
+    font-weight: normal;
+
+    font-size: 11px;
+
+    background: rgb(44, 169, 240);
+
+    padding: 3px 5px;
+
+    border-radius: 50px;
+
+}
+
+.privacy-policy h4, .term-and-conditions h4 {
+
+    font-weight: 500;
+
+    color: #004782;
+
+    /*font-family: 'roboto', sans-serif;*/
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 20px;
+
+    text-transform: capitalize;
+
+	margin: 0;
+
+	padding: 15px 0 5px;
+
+}
+
+p.copy_right.text-center a {
+
+    color: #e96057;
+
+    font-weight: 600;
+
+}
+
+p.copy_right.text-center a:hover{
+
+	color: #fff;	
+
+}
+
+  
+
+  
+
+@media only screen and (min-width : 320px) and (max-width : 667px){
+
+	.faq-section.faq-inner {
+
+    padding-top: 1em;
+
+}
+
+	 .faq-section {
+
+		padding: 1em 1em 0em;
+
+	}
+
+	 .faq-content.col-sm-12 h3 {
+
+    font-size: 22px;
+
+	}
+
+	.faq-content.col-sm-12 h3::before {
+
+    left: 32.5%;
+
+}
+
+.faq-content-inner {
+
+    padding: 1em 0;
+
+} 
+
+	.faq-content-inner .card-header button.btn.btn-link.collapsed {
+
+    font-size: 8.8px;
+
+} 
+
+.faq-content-inner .card-header button.btn{
+
+	padding: 5px 2px 5px 5px;
+
+}
+
+.card-body p{
+
+	font-size: 13px;
+
+	line-height: 1.75;
+
+}
+
+.card-body {
+
+    -webkit-box-flex: 1;
+
+    -ms-flex: 1 1 auto;
+
+    flex: 1 1 auto;
+
+    padding: 10px!important;
+
+}
+
+.accordion .fa {
+
+    position: absolute;
+
+    right: 5px;
+
+    top: 15px;
+
+}
+
+.service_area {
+
+    padding: 2em 1em;
+
+}
+
+.ghost-btn-md {
+
+padding: 8px 15px;
+
+}
+
+ul.home-list li i {
+
+    margin-bottom: 10px;
+
+}
+
+ul.home-list li {
+
+    color: #fff;
+
+    font-size: 16px;
+
+    font-weight: 500;
+
+}
+
+.slider_area .single_slider {
+
+    height: 250px;
+
+}
+
+.slider_area .single_slider .slider_text h1 {
+
+    color: #ffffff;
+
+    /*font-family: 'Roboto', sans-serif;*/
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 21px;
+
+    font-weight: 500;
+
+    line-height: normal;
+
+    padding: 20px 0;
+
+    margin: 0!important;
+
+	line-height: 50px!important;
+
+}
+
+.screen {
+
+    padding: 25px 0 25px;
+
+    background: rgba(0,0,0, 0.4);
+
+    position: absolute;
+
+    top: -4px;
+
+    left: 0;
+
+}
+
+.screen h3 {
+
+    text-transform: uppercase;
+
+    padding: 0;
+
+    text-align: center;
+
+    font-size: 18px;
+
+    font-weight: 500;
+
+    line-height: 1.5;
+
+    color: #fff;
+
+	padding-bottom: 10px;
+
+}
+
+.contact-form .form-group.form-check {
+
+    padding: 0 1em;
+
+}
+
+.contact-form p {
+
+    padding: 0 20px 10px;
+
+    font-size: 10px;
+
+    margin: 0;
+
+    color: #fff;
+
+    line-height: 1.5;
+
+}
+
+input.btn.btn-primary {
+
+    border-radius: 5px;
+
+    letter-spacing: normal;
+
+    font-weight: 500;
+
+    font-size: 14px;
+
+    padding: 8px 15px;
+
+    margin-left: 20px;
+
+}
+
+	.section_title h3 {
+
+    font-size: 24px;
+
+    padding-top: 5px;
+
+} 
+
+.section_title.text-center.mb-95 h3::before {
+
+    content: "";
+
+    border: 1.5px solid #2ca9f0;
+
+    position: absolute;
+
+    width: 100px;
+
+    left: 35%;
+
+    top: 80px;
+
+	display:none;
+
+}
+
+.section_title.text-center.mb-95 h3::after {
+
+    content: "";
+
+    border: 5px solid #2ca9f0;
+
+    position: absolute;
+
+    width: 5px;
+
+    top: 75px;
+
+    left: 48%;
+
+	display:none;
+
+}
+
+.footer .copy-right_text .copy_right {
+
+    font-size: 12px;
+
+}
+
+.mapouter iframe {
+
+    height: 250px;
+
+    width: 100%;
+
+}
+
+.contact-informatiom h3 {
+
+    color: #000;
+
+    font-weight: 500;
+
+    padding-bottom: 20px;
+
+    font-size: 20px;
+
+    margin: 0;
+
+}
+
+.contact-informatiom {
+
+    position: absolute;
+
+    top: 250px;
+
+    left: 0;
+
+    background: #f2f2f2;
+
+    padding: 2em 80px 1em 20px;
+
+    border-radius: 0;
+
+    width: 100%;
+
+}
+
+.contact-informatiom ul li i {
+
+    border-radius: 3px;
+
+    margin-right: 15px;
+
+    text-align: center;
+
+    color: #fff;
+
+    background: #008ed6;
+
+    padding: 10px 13px;
+
+    margin-left: -54px;
+
+    font-size: 18px;
+
+}
+
+.contact-informatiom ul li {
+
+    padding-bottom: 15px;
+
+    font-size: 15px;
+
+    padding-left: 55px;
+
+    color: #333;
+
+    line-height: 1.75;
+
+}
+
+.faq-content-inner.home-faq .accordion {
+
+    padding: 0 1em;
+
+}
+
+.faq-content-inner.home-faq .accordion .card-body {
+
+    -webkit-box-flex: 1;
+
+    -ms-flex: 1 1 auto;
+
+    flex: 1 1 auto;
+
+    padding: 10px!important;
+
+}
+
+.faq-content-inner.home-faq .accordion .card-body p{
+
+	font-size: 13px;
+
+	line-height: 1.5;
+
+}
+
+.faq-content-inner .card-header .btn:not(:disabled):not(.disabled) {
+
+    font-weight: 600;
+
+    color: #ffffff!important;
+
+    font-size: 9px;
+
+}
+
+.home-plan {
+
+    padding: 1em;
+
+}
+
+.plan-section img {
+
+    border-radius: 4px;
+
+    -webkit-box-shadow: 0px 11px 29px 0px rgba(0, 0, 0, 0.3);
+
+    box-shadow: 0px 11px 29px 0px rgba(0, 0, 0, 0.3);
+
+    width: 100%;
+
+}
+
+.col-sm-12.home-heading h1 {
+
+    font-size: 28px;
+
+ } 
+
+ .col-sm-12.home-heading h1::after {
+
+    content: "";
+
+    border: 5px solid #2ca9f0;
+
+    position: absolute;
+
+    width: 5px;
+
+    top: 56px;
+
+    left: 47%;
+
+}
+
+.col-sm-12.home-heading h1::before {
+
+    content: "";
+
+    border: 1.5px solid #2ca9f0;
+
+    position: absolute;
+
+    width: 100px;
+
+    left: 33%;
+
+    top: 60px;
+
+}
+
+.plan-section {
+
+    padding-bottom: 0;
+
+}
+
+.plan-section h2 {
+
+    font-size: 24px;
+
+    margin: 0;
+
+    padding-bottom: 15px;
+
+    font-weight: 600;
+
+    color: #2ca9f0;
+
+    padding-top: 1em;
+
+}
+
+.contact-section {
+
+    padding: 20px 0 0;
+
+}
+
+.contact-form-inner {
+
+    padding: 1em 1em 2em;
+
+}
+
+.contact-page .contact-info__icon {
+
+    margin-right: 5px;
+
+    margin-left: 5px;
+
+    padding-top: 5px;
+
+}
+
+.contact-info {
+
+    margin-top: 15px!important;
+
+}
+
+.contact-form-inner .form-check {
+
+    position: relative;
+
+    display: block;
+
+    padding-left: 0;
+
+}
+
+.contact-info .media-body h3 {
+
+    margin-bottom: 0;
+
+    font-size: 15px;
+
+    color: #666666;
+
+    line-height: 1.5;
+
+	padding-bottom: 15px;
+
+}
+
+.col-lg-4.contact-address {
+
+    background: #f2f2f2;
+
+    padding: 1em 2em;
+
+}
+
+section.contact-section .row {
+
+    margin: 0;
+
+}
+
+section.contact-section .mapouter {
+
+    height: 230px;
+
+}
+
+.contact-form-two p {
+
+    padding-left: 0;
+
+    font-size: 10px;
+
+}
+
+input.btn.btn-custom {
+
+    margin-left: 0;
+
+}
+
+.contact-info__icon i, .contact-info__icon span {
+
+    font-size: 18px;
+
+}
+
+.header-area .main-header-area {
+
+    padding: 10px 10px;
+
+    display: none!important;
+
+}
+
+.header-area .header-top_area {
+
+    padding: 10px 1em 5px 0;
+
+    background: #ffffff;
+
+    box-shadow: 0 0 15px 2px #dddddd;
+
+}
+
+.header-area .header-top_area .short_contact_list {
+
+    display: none;
+
+}
+
+.logo img {
+
+    width: 150px;
+
+	margin-left: -20px;
+
+}
+
+.header-area .header-top_area .social_media_links {
+
+    text-align: left;
+
+    width: 185px;
+
+}
+
+.slicknav_btn {
+
+    background-color: #007bff;
+
+    cursor: pointer;
+
+    margin-bottom: 0;
+
+    position: relative;
+
+    z-index: 99;
+
+    border: none;
+
+    border-radius: 3px;
+
+    top: -50px!important;
+
+    padding: 10px 10px 15px 10px!important;
+
+    right: 0!important;
+
+    margin-top: 0!important;
+
+}
+
+.plan-section img {
+
+    margin-bottom: 30px;
+
+}
+
+.section-heading.text-center p {
+
+    font-size: 16px!important;
+
+    color: #666666;
+
+    font-weight: 300;
+
+}
+
+.feature-item h3 {
+
+    font-weight: 700;
+
+    color: #004782;
+
+    font-size: 18px;
+
+}
+
+.feature-item p {
+
+    color: #666666;
+
+    font-size: 15px;
+
+    line-height: 1.75;
+
+    text-align: center;
+
+    font-weight: 300;
+
+}
+
+p.cover-repair {
+
+    margin-top: 15px;
+
+}
+
+.section_title p {
+
+    font-size: 16px;
+
+    line-height: 30px;
+
+    color: #5d5d5d;
+
+    font-weight: 400;
+
+}
+
+.col-sm-5.plan-image img {
+
+    padding-top: 40px;
+
+}
+
+section#features {
+
+    padding: 30px 0 0px;
+
+	/*margin-top: 450px;	*/
+
+}
+
+.feature-item img {
+
+    height: 80px;
+
+    margin-bottom: 10px;
+
+    margin-top: 20px;
+
+}
+
+.slider_text.home-slide h1 {
+
+    font-size: 36px!important;
+
+    margin-top: 225px;
+
+    padding-top: 45px!important;
+
+    text-align: center;
+
+}
+
+div#ready-1 {
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+	right: 0;
+
+    margin: 0 auto;
+
+    transform: translate(0, 0);
+
+    width: 100%;
+
+}
+
+div#ready-3{
+
+	display: block;
+
+	top: 21px;
+
+}
+
+.coverage-section {
+
+    margin-top: 0;
+
+}
+
+.without-coverage h3, .with-complete h3 {
+
+    font-size: 13px;
+
+}
+
+.with-complete h3 sub {
+
+    font-size: 24px;
+
+}
+
+.without-coverage, .with-complete {
+
+    width: 50%;
+
+}
+
+.with-complete ul li {
+
+    height: 105px;
+
+	font-size: 48px;
+
+}
+
+.with-complete ul li sup {
+
+    font-size: 24px;
+
+}
+
+.without-coverage ul li img {
+
+    width: 60px;
+
+    margin-top: -25px;
+
+}
+
+.without-coverage ul li p {
+
+    padding-left: 10px;
+
+    font-size: 13px;
+
+}
+
+.plan-heading h1 {
+
+    font-size: 28px;
+
+}
+
+.plan-heading p strong {
+
+    color: #00aeef;
+
+    font-weight: 700;
+
+}
+
+.plan-heading p {
+
+    font-size: 16px;
+
+    padding: 10px 0 0;
+
+    line-height: 1.75;
+
+    width: 100%;
+
+    margin: 0;
+
+}
+
+.plan-heading h1::before {
+
+    left: 30%;
+
+    top: 55px;
+
+}
+
+.plan-heading h1::after {
+
+    top: 52px;
+
+    left: 48%;
+
+}
+
+.col-sm-8.plan-table>h2 {
+
+    font-size: 15px;
+
+    padding-left: 90px;
+
+}
+
+.tabel-inner.col-sm-12 tr th {
+
+    font-size: 11px;
+
+}
+
+
+
+.tabel-inner tr th {
+
+    margin-bottom: 5px;
+
+}
+
+th.cover {
+
+    padding: 5px 2px!important;
+
+    margin-left: 0;
+
+}
+
+th.system {
+
+    padding: 5px 10px 5px 5px!important;
+
+    margin-left: 10px;
+
+}
+
+th.combo {
+
+    padding: 5px 5px!important;
+
+    margin-left: -5px;
+
+}
+
+th.appliances {
+
+    padding: 5px 5px 5px 10px!important;
+
+    margin-left: -5px;
+
+}
+
+.tabel-inner.col-sm-12 tr td img {
+
+    height: 30px;
+
+    padding: 5px 25px;
+
+}
+
+.tabel-inner.col-sm-12 tr td {
+
+    border: 1px solid #bfbfbf;
+
+    color: #666666;
+
+    font-size: 12px;
+
+    padding: 2px 2px;
+
+}
+
+.plan-heading {
+
+    padding-bottom: 0px;
+
+}
+
+h2.plan-quote a {
+
+    padding: 12px 25px;
+
+	font-size: 18px;
+
+}
+
+.optional-coverage {
+
+    padding-left: 0px;
+
+    margin-top: 40px;
+
+}
+
+table.optional-table td:nth-child(1) {
+
+    border-right: 1px solid #666666;
+
+    padding-right: 10px;
+
+    padding-left: 0;
+
+}
+
+table.optional-table td:nth-child(2) {
+
+    padding-left: 10px;
+
+}
+
+.optional-table {
+
+    font-size: 13px;
+
+	margin: 0 auto;
+
+    width: 100%;
+
+}
+
+.gmap_canvas {
+
+    overflow: hidden;
+
+    background: none!important;
+
+    height: 290px;
+
+    width: 100%;
+
+}
+
+.optional-coverage h2 {
+
+    background: #aedef9;
+
+    text-transform: uppercase;
+
+    font-weight: 900;
+
+    font-size: 18px;
+
+    padding: 9px 8px;
+
+    color: #0054a6;
+
+    margin: 0 auto 20px;
+
+}
+
+div#ready-2 h1 {
+
+    padding-top: 10px;
+
+}	
+
+.why-choose {
+
+    padding: 1em;
+
+}
+
+.why-choose-content p {
+
+    font-size: 16px;
+
+    padding: 0%;
+
+    line-height: 1.75;
+
+}
+
+.slick-prev {
+
+    left: -20px;
+
+}
+
+.slick-next {
+
+    right: -10px;
+
+}
+
+figure.testimonial {
+
+    padding: 0 5px;
+
+}
+
+figure.testimonial blockquote {
+
+    font-size: 14px;
+
+    line-height: 1.75;
+
+    padding: 10px;
+
+}
+
+.slick-prev:before, .slick-next:before {
+
+    font-size: 40px;
+
+}
+
+.slick-prev, .slick-next {
+
+    top: 40%;
+
+}
+
+.skin_srolld {
+
+    height: 85px;
+
+}
+
+.skin_srolld .logo img {
+
+    height: 70px;
+
+}
+
+.privacy-policy-section {
+
+    padding: 2em 1em 1em;
+
+}
+
+.privacy-policy h2, .term-and-conditions h2 {
+
+    font-size: 24px;
+
+}
+
+.privacy-policy h3, .term-and-conditions h3 {
+
+    font-size: 20px;
+
+}
+
+.privacy-policy h4, .term-and-conditions h4 {
+
+    font-size: 18px;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width : 668px) and (max-width : 767px){
+
+	 .faq-section {
+
+		padding: 1em 1em 0em;
+
+	}
+
+	 .faq-content.col-sm-12 h3 {
+
+    font-size: 24px;
+
+	}
+
+	.faq-content.col-sm-12 h3::before {
+
+    left: 32.5%;
+
+}
+
+.faq-content-inner {
+
+    padding: 2em 0;
+
+}
+
+	.faq-content-inner .card-header button.btn.btn-link.collapsed {
+
+    font-size: 12px;
+
+} 
+
+.accordion .fa {
+
+    position: absolute;
+
+    right: 10px;
+
+    top: 15px;
+
+}
+
+.service_area {
+
+    padding: 2em 1em;
+
+}
+
+.ghost-btn-md {
+
+padding: 8px 15px;
+
+}
+
+ul.home-list li i {
+
+    margin-bottom: 10px;
+
+}
+
+ul.home-list li {
+
+    color: #fff;
+
+    font-size: 15px;
+
+    font-weight: 500;
+
+}
+
+.slider_area .single_slider {
+
+    height: 300px;
+
+}
+
+.slider_area .single_slider .slider_text h1 {
+
+    color: #ffffff;
+
+    /*font-family: 'Roboto', sans-serif;*/
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 22px;
+
+    font-weight: 500;
+
+    line-height: normal;
+
+    padding: 20px 0;
+
+    margin: 0!important;
+
+}
+
+.screen {
+
+    padding: 25px 0 25px;
+
+    background: rgba(0,0,0, 0.4);
+
+    position: absolute;
+
+    top: 15px;
+
+    left: 0;
+
+}
+
+.screen h3 {
+
+    text-transform: uppercase;
+
+    padding: 0;
+
+    text-align: center;
+
+    font-size: 18px;
+
+    font-weight: 600;
+
+    line-height: 1.5;
+
+    color: #fff;
+
+}
+
+.contact-form .form-group.form-check {
+
+    padding: 0 1em;
+
+}
+
+.contact-form p {
+
+    padding: 0 20px 10px;
+
+    font-size: 10px;
+
+    margin: 0;
+
+    color: #fff;
+
+    line-height: 1.5;
+
+}
+
+input.btn.btn-primary {
+
+    border-radius: 5px;
+
+    letter-spacing: normal;
+
+    font-weight: 500;
+
+    font-size: 14px;
+
+    padding: 8px 15px;
+
+    margin-left: 20px;
+
+}
+
+	.section_title h3 {
+
+    font-size: 24px;
+
+    padding-top: 5px;
+
+} 
+
+.section_title.text-center.mb-95 h3::before {
+
+    content: "";
+
+    border: 1.5px solid #2ca9f0;
+
+    position: absolute;
+
+    width: 100px;
+
+    left: 35%;
+
+    top: 80px;
+
+	display:none;
+
+}
+
+.section_title.text-center.mb-95 h3::after {
+
+    content: "";
+
+    border: 5px solid #2ca9f0;
+
+    position: absolute;
+
+    width: 5px;
+
+    top: 75px;
+
+    left: 48%;
+
+	display:none;
+
+}
+
+.footer .copy-right_text .copy_right {
+
+    font-size: 12px;
+
+}
+
+.mapouter iframe {
+
+    height: 250px;
+
+    width: 100%;
+
+}
+
+.contact-informatiom h3 {
+
+    color: #000;
+
+    font-weight: 500;
+
+    padding-bottom: 20px;
+
+    font-size: 20px;
+
+    margin: 0;
+
+}
+
+.contact-informatiom {
+
+    position: absolute;
+
+    top: 250px;
+
+    left: 0;
+
+    background: #f2f2f2;
+
+    padding: 2em 80px 1em 20px;
+
+    border-radius: 0;
+
+    width: 100%;
+
+}
+
+.contact-informatiom ul li i {
+
+    border-radius: 3px;
+
+    margin-right: 15px;
+
+    text-align: center;
+
+    color: #fff;
+
+    background: #008ed6;
+
+    padding: 10px 13px;
+
+    margin-left: -54px;
+
+    font-size: 18px;
+
+}
+
+.contact-informatiom ul li {
+
+    padding-bottom: 15px;
+
+    font-size: 15px;
+
+    padding-left: 55px;
+
+    color: #333;
+
+    line-height: 1.75;
+
+}
+
+.faq-content-inner.home-faq .accordion {
+
+    padding: 0 1em;
+
+}
+
+.faq-content-inner.home-faq .accordion .card-body {
+
+    -webkit-box-flex: 1;
+
+    -ms-flex: 1 1 auto;
+
+    flex: 1 1 auto;
+
+    padding: 10px!important;
+
+}
+
+.faq-content-inner .card-header .btn:not(:disabled):not(.disabled) {
+
+    font-weight: 500;
+
+    color: #ffffff!important;
+
+    font-size: 12px;
+
+}
+
+.home-plan {
+
+    padding: 1em;
+
+}
+
+.plan-section img {
+
+    border-radius: 4px;
+
+    -webkit-box-shadow: 0px 11px 29px 0px rgba(0, 0, 0, 0.3);
+
+    box-shadow: 0px 11px 29px 0px rgba(0, 0, 0, 0.3);
+
+    width: 100%;
+
+}
+
+.col-sm-12.home-heading h1 {
+
+    font-size: 28px;
+
+ } 
+
+ .col-sm-12.home-heading h1::after {
+
+    content: "";
+
+    border: 5px solid #2ca9f0;
+
+    position: absolute;
+
+    width: 5px;
+
+    top: 56px;
+
+    left: 47%;
+
+}
+
+.col-sm-12.home-heading h1::before {
+
+    content: "";
+
+    border: 1.5px solid #2ca9f0;
+
+    position: absolute;
+
+    width: 100px;
+
+    left: 33%;
+
+    top: 60px;
+
+}
+
+.plan-section {
+
+    padding-bottom: 0;
+
+}
+
+.plan-section h2 {
+
+    font-size: 24px;
+
+    margin: 0;
+
+    padding-bottom: 15px;
+
+    font-weight: 700;
+
+    color: #2ca9f0;
+
+    padding-top: 1em;
+
+}
+
+.contact-section {
+
+    padding: 20px 0;
+
+}
+
+.contact-form-inner {
+
+    padding: 1em;
+
+}
+
+.contact-form-inner h3 {
+
+    padding-left: 0;
+
+}
+
+.contact-form-inner .form-check {
+
+    position: relative;
+
+    display: block;
+
+    padding-left: 0;
+
+}
+
+.contact-info .media-body h3 {
+
+    margin-bottom: 0;
+
+    font-size: 15px;
+
+    color: #666666;
+
+    line-height: 1.5;
+
+}
+
+.col-lg-4.contact-address {
+
+    background: #f2f2f2;
+
+    padding: 0 2em 1em;
+
+}
+
+section.contact-section .row {
+
+    margin: 0;
+
+}
+
+section.contact-section .mapouter {
+
+    height: 230px;
+
+}
+
+.contact-form-two p {
+
+    padding-left: 0;
+
+    font-size: 10px;
+
+}
+
+input.btn.btn-custom {
+
+    margin-left: 0;
+
+}
+
+.contact-info__icon i, .contact-info__icon span {
+
+    font-size: 18px;
+
+}
+
+.header-area .main-header-area {
+
+    padding: 10px 10px;
+
+    display: none!important;
+
+}
+
+.header-area .header-top_area {
+
+    padding: 10px 1em 5px 0;
+
+    background: #ffffff;
+
+    box-shadow: 0 0 15px 2px #dddddd;
+
+}
+
+.header-area .header-top_area .short_contact_list {
+
+    display: none;
+
+}
+
+/*.logo img {
+
+    width: 150px;
+
+	margin-left: -20px;
+
+}*/
+
+.header-area .header-top_area .social_media_links {
+
+    text-align: left;
+
+    width: 185px;
+
+}
+
+.slicknav_btn {
+
+    background-color: #007bff;
+
+    cursor: pointer;
+
+    margin-bottom: 0;
+
+    position: relative;
+
+    z-index: 99;
+
+    border: none;
+
+    border-radius: 3px;
+
+    top: -50px!important;
+
+    padding: 10px 10px 15px 10px!important;
+
+    right: 0!important;
+
+    margin-top: 0!important;
+
+}
+
+.plan-section img {
+
+    margin-bottom: 30px;
+
+}
+
+.section-heading.text-center p {
+
+    font-size: 16px!important;
+
+    color: #666666;
+
+    font-weight: 500;
+
+}
+
+.feature-item h3 {
+
+    font-weight: 700;
+
+    color: #004782;
+
+    font-size: 22px;
+
+}
+
+.feature-item p {
+
+    color: #666666;
+
+    font-size: 15px;
+
+    line-height: 1.75;
+
+    text-align: center;
+
+    font-weight: 400;
+
+}
+
+p.cover-repair {
+
+    margin-top: 15px;
+
+}
+
+.section_title p {
+
+    font-size: 16px;
+
+    line-height: 30px;
+
+    color: #5d5d5d;
+
+    font-weight: 400;
+
+}
+
+.col-sm-5.plan-image img {
+
+    padding-top: 40px;
+
+}
+
+section#features {
+
+    padding: 30px 0 0px;
+
+}
+
+.feature-item img {
+
+    height: 80px;
+
+    margin-bottom: 20px;
+
+}
+
+.slider_text.home-slide h1 {
+
+    font-size: 36px!important;
+
+    margin-top: 225px;
+
+    padding-top: 85px!important;
+
+    text-align: center;
+
+}
+
+div#ready-1 {
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    transform: translate(0, 0);
+
+    width: 100%;
+
+}
+
+div#ready-3{
+
+	display: block;
+
+	top: 21px;
+
+}
+
+.coverage-section {
+
+    margin-top: 40px;
+
+}
+
+.without-coverage h3, .with-complete h3 {
+
+    font-size: 15px;
+
+}
+
+.without-coverage, .with-complete {
+
+    width: 50%;
+
+}
+
+.with-complete ul li {
+
+    height: 115px;
+
+}
+
+.without-coverage ul li img {
+
+    width: 65px;
+
+    margin-top: 0;
+
+}
+
+.without-coverage ul li p {
+
+    padding-left: 10px;
+
+    font-size: 13px;
+
+}
+
+.plan-heading h1 {
+
+    font-size: 28px;
+
+}
+
+.plan-heading p strong {
+
+    color: #00aeef;
+
+    font-weight: 700;
+
+}
+
+.privacy-policy-section {
+
+    padding: 2em 1em 1em;
+
+}
+
+.privacy-policy h2, .term-and-conditions h2 {
+
+    font-size: 24px;
+
+}
+
+.privacy-policy h3, .term-and-conditions h3 {
+
+    font-size: 20px;
+
+}
+
+.plan-heading p {
+
+    font-size: 15px;
+
+    padding: 10px 0 0;
+
+    line-height: 1.75;
+
+    width: 100%;
+
+    margin: 0;
+
+}
+
+.plan-heading h1::before {
+
+    left: 30%;
+
+    top: 55px;
+
+}
+
+.plan-heading h1::after {
+
+    top: 52px;
+
+    left: 48%;
+
+}
+
+.col-sm-8.plan-table>h2 {
+
+    font-size: 18px;
+
+    padding-left: 100px;
+
+}
+
+.tabel-inner.col-sm-12 tr th {
+
+    font-size: 13px;
+
+}
+
+.tabel-inner tr th {
+
+    margin-bottom: 5px;
+
+}
+
+th.cover {
+
+    padding: 5px 5px!important;
+
+    margin-left: 0;
+
+}
+
+th.system {
+
+    padding: 5px 10px 5px 5px!important;
+
+    margin-left: 10px;
+
+}
+
+th.combo {
+
+    padding: 5px 5px!important;
+
+    margin-left: -5px;
+
+}
+
+th.appliances {
+
+    padding: 5px 5px 5px 10px!important;
+
+    margin-left: -5px;
+
+}
+
+.tabel-inner.col-sm-12 tr td img {
+
+    height: 30px;
+
+    padding: 5px 20px;
+
+}
+
+.tabel-inner.col-sm-12 tr td {
+
+    border: 1px solid #bfbfbf;
+
+    color: #666666;
+
+    font-size: 13px;
+
+    padding: 2px 2px;
+
+}
+
+.plan-heading {
+
+    padding-bottom: 20px;
+
+}
+
+h2.plan-quote a {
+
+    padding: 5px 15px;
+
+    font-size: 18px;
+
+    margin-left: 90px;
+
+}
+
+.optional-coverage {
+
+    padding-left: 0px;
+
+    margin-top: 40px;
+
+}
+
+table.optional-table td:nth-child(1) {
+
+    border-right: 1px solid #666666;
+
+    padding-right: 10px;
+
+    padding-left: 10px;
+
+}
+
+table.optional-table td:nth-child(2) {
+
+    padding-left: 10px;
+
+}
+
+.optional-table {
+
+    font-size: 13px;
+
+}
+
+.gmap_canvas {
+
+    overflow: hidden;
+
+    background: none!important;
+
+    height: 290px;
+
+    width: 100%;
+
+}
+
+.optional-coverage h2 {
+
+    background: #aedef9;
+
+    text-transform: uppercase;
+
+    font-weight: 600;
+
+    font-size: 18px;
+
+    padding: 9px 8px;
+
+    color: #0054a6;
+
+    margin: 0 auto 20px;
+
+}
+
+div#ready-2 h1 {
+
+    padding-top: 59px;
+
+}	
+
+.why-choose {
+
+    padding: 2em 1em;
+
+}
+
+.why-choose .container {
+
+    max-width: 100%!important;
+
+}
+
+.why-choose-content p {
+
+    font-size: 16px;
+
+    padding: 0%;
+
+    line-height: 1.75;
+
+}
+
+.slick-prev {
+
+    left: -20px;
+
+}
+
+.slick-next {
+
+    right: -10px;
+
+}
+
+figure.testimonial {
+
+    padding: 0 5px;
+
+}
+
+figure.testimonial blockquote {
+
+    font-size: 14px;
+
+    line-height: 1.75;
+
+    padding: 10px;
+
+}
+
+.slick-prev:before, .slick-next:before {
+
+    font-size: 40px;
+
+}
+
+.slick-prev, .slick-next {
+
+    top: 50%;
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width : 768px)  and (max-width : 1024px){ 
+
+.faq-content-inner {
+
+    padding: 2em 0em 0;
+
+}
+
+.faq-section.faq-inner {
+
+    padding-top: 2em;
+
+}
+
+.faq-section {
+
+    padding: 2em 3em;
+
+}
+
+.faq-content.col-sm-12 h3::before {
+
+    left: 40.5%;
+
+}
+
+.faq-content.col-sm-12 h3 {
+
+    font-size: 28px;
+
+}
+
+.contact-informatiom ul li i {
+
+    padding: 10px 12px;
+
+    margin-left: -50px;
+
+    font-size: 16px;
+
+}
+
+.contact-informatiom h3 {
+
+    padding-bottom: 10px;
+
+    font-size: 20px;
+
+}
+
+.contact-informatiom {
+
+	left: 2em;
+
+    padding: 20px 15px 20px 15px;
+
+    border-radius: 5px;
+
+}
+
+.contact-informatiom ul li {
+
+    padding-bottom: 10px;
+
+    font-size: 16px;
+
+    padding-left: 60px;
+
+}
+
+.mapouter iframe {
+
+    height: 425px;
+
+    width: 100%;
+
+}
+
+.service_area {
+
+    padding: 50px 2em 10px 2em;
+
+}
+
+.mapouter {
+
+    height: 425px;
+
+}	
+
+.section_title h3 {
+
+    font-size: 28px;
+
+    line-height: 40px;
+
+}
+
+.section_title.text-center.mb-95 h3::before {
+
+    left: 40%;
+
+}
+
+.section_title h2 {
+
+    font-size: 28px;
+
+}
+
+.section_title p {
+
+    font-size: 16px;
+
+}
+
+.without-coverage h3, .with-complete h3 {
+
+    font-size: 15px;
+
+}
+
+.without-coverage ul li p {
+
+    font-size: 13px;
+
+}
+
+.without-coverage ul li img {
+
+    width: 52px;
+
+}
+
+.with-complete ul li {
+
+    height: 100px;
+
+}
+
+.feature-item h3 {
+
+    font-size: 18px;
+
+    font-weight: 700;
+
+}
+
+section#features {
+
+    padding: 50px 0 0px;
+
+}
+
+.section-heading h2 {
+
+    font-size: 28px;
+
+}
+
+.feature-item img {
+
+    height: 75px;
+
+    margin-bottom: 20px;
+
+}
+
+input.btn.btn-primary {
+
+    font-size: 14px;
+
+    padding: 5px 15px;
+
+    margin-left: 90px;
+
+}
+
+.contact-form p {
+
+    padding: 0 25px 13px 12px;
+
+    font-size: 11px;
+
+}
+
+.contact-form .form-group.form-check {
+
+    padding: 0 10px;
+
+}
+
+.screen h3 {
+
+    text-transform: uppercase;
+
+    padding: 0 10px 10px;
+
+    text-align: center;
+
+    font-size: 18px;
+
+    font-weight: 500;
+
+    line-height: 1.5;
+
+    color: #fff;
+
+}
+
+.screen {
+
+    padding: 15px 10px;
+
+    background: rgba(0,0,0, 0.4);
+
+}
+
+div#ready-2 {
+
+    width: 50%;
+
+}
+
+div#ready-3 {
+
+    width: 50%;
+
+}
+
+.slider_area .single_slider .slider_text h1 {
+
+    font-size: 20px;
+
+    line-height: 1;
+
+	padding-top: 0;
+
+}
+
+ul.home-list li {
+
+    font-size: 16px;
+
+}
+
+.slider_text.home-slide h1 {
+
+    font-size: 42px!important;
+
+    text-align: center;
+
+}
+
+.slider_area .single_slider {
+
+    height: 465px;
+
+}
+
+div#ready-1 {
+
+    position: absolute;
+
+    top: 40%;
+
+    left: 0;
+
+    right: 0;
+
+    margin: 0 auto;
+
+    transform: translate(0, 50%);
+
+    width: 90%;
+
+}
+
+.header-area .header-top_area .short_contact_list ul li a {
+
+    font-size: 18px;
+
+    /*color: #2ca9f0;*/
+
+    font-weight: 600;
+
+}
+
+.header-area .header-top_area .short_contact_list ul li a span {
+
+    font-size: 10px;
+
+}
+
+.header-area .header-top_area .social_media_links a {
+
+    margin-left: 32px;
+
+}
+
+.header-area .header-top_area .short_contact_list {
+
+    text-align: right;
+
+    padding-top: 0;
+
+}
+
+.logo img {
+
+    height: 85px;
+
+}
+
+.slicknav_btn {
+
+    padding: 10px 10px 13px!important;
+
+    margin-top: -5px!important;
+
+}
+
+.slicknav_menu .slicknav_nav {
+
+    left: 12px!important;
+
+    top: 45px!important;
+
+}
+
+.home-plan {
+
+    padding: 1em 1em 2em;
+
+}
+
+.plan-heading h1 {
+
+    font-size: 28px;
+
+}
+
+.plan-heading h1::before {
+
+    left: 42%;
+
+}
+
+.plan-heading p {
+
+    margin: 0 auto;
+
+    font-size: 16px;
+
+    padding: 0;
+
+    width: 100%;
+
+}
+
+.tabel-inner tr th {
+
+    margin-bottom: 5px;
+
+    font-size: 16px;
+
+    font-weight: 600;
+
+}
+
+.optional-coverage h2 {
+
+    font-size: 18px;
+
+}
+
+.tabel-inner.col-sm-12 tr td {
+
+    font-size: 14px;
+
+}
+
+.tabel-inner.col-sm-12 tr td img {
+
+    height: 30px;
+
+    padding: 5px 35px;
+
+}
+
+h2.plan-quote a {
+
+    padding: 10px 20px;
+
+    margin-left: 70px;
+
+    font-size: 24px;
+
+}
+
+.col-sm-8.plan-table>h2 {
+
+    font-size: 18px;
+
+	padding-left: 130px;
+
+}
+
+.optional-coverage {
+
+    padding-left: 10px;
+
+    margin-top: 0;
+
+}
+
+.optional-table {
+
+    font-size: 10px;
+
+    text-align: center;
+
+    line-height: 1.75;
+
+    color: #666666;
+
+}
+
+table.optional-table td:nth-child(1) {
+
+    border-right: 1px solid #dddddd;
+
+    padding-right: 10px;
+
+}
+
+table.optional-table td:nth-child(2) {
+
+    padding-left: 10px;
+
+}
+
+th.cover {
+
+    padding: 5px 0!important;
+
+}
+
+th.system {
+
+    padding: 5px 20px!important;
+
+}
+
+th.combo {
+
+    padding: 5px 20px!important;
+
+}
+
+th.appliances {
+
+    padding: 5px 20px!important;
+
+}
+
+
+
+.optional-coverage h2 {
+
+    background: #aedef9;
+
+    text-transform: uppercase;
+
+    font-weight: 900;
+
+    font-size: 18px;
+
+    padding: 7px 20px;
+
+    color: #0054a6;
+
+    margin: 30px 0 10px;
+
+}
+
+.contact-form-two p {
+
+    padding-left: 20px;
+
+    font-size: 13px;
+
+}
+
+.col-lg-4.contact-address {
+
+    padding-left: 10px;
+
+	padding-bottom: 20px;
+
+}
+
+.contact-info {
+
+    margin-top: 20px;
+
+}
+
+.gmap_canvas {
+
+    overflow: hidden;
+
+    background: none!important;
+
+    height: 425px;
+
+    width: 100%;
+
+}
+
+div#ready-2 h1 {
+
+    padding-top: 175px;
+
+}
+
+.header-area .header-top_area {
+
+    padding: 5px 2em 10px 0;
+
+    background: #ffffff;
+
+}
+
+.skin_srolld .short_contact_list {
+
+    text-align: right;
+
+    padding-top: 0px!important;
+
+}
+
+.header-area .header-top_area.skin_srolld {
+
+    position: fixed;
+
+    top: 0!important;
+
+    z-index: 100009999;
+
+    width: 100%;
+
+    height: 100px;
+
+}
+
+.why-choose {
+
+    padding: 2em 1em;
+
+}
+
+.why-choose .container {
+
+    max-width: 100%!important;
+
+}
+
+.why-choose-content h2 {
+
+    font-size: 22px;
+
+    line-height: 1.5;
+
+	padding-bottom: 0;
+
+}
+
+.why-choose-content p {
+
+    font-size: 16px;
+
+    padding: 0%;
+
+    line-height: 1.75;
+
+}
+
+.slick-prev {
+
+    left: -20px;
+
+}
+
+.slick-next {
+
+    right: -10px;
+
+}
+
+figure.testimonial {
+
+    padding: 0 5px;
+
+}
+
+figure.testimonial blockquote {
+
+    font-size: 14px;
+
+    line-height: 1.75;
+
+    padding: 10px;
+
+}
+
+.slick-prev:before, .slick-next:before {
+
+    font-size: 40px;
+
+}
+
+.slick-prev, .slick-next {
+
+    top: 50%;
+
+}
+
+.privacy-policy-section {
+
+    padding: 2em 1em 1em;
+
+}
+
+.privacy-policy h2, .term-and-conditions h2 {
+
+    font-size: 24px;
+
+}
+
+.privacy-policy h3, .term-and-conditions h3 {
+
+    font-size: 20px;
+
+}
+
+.col-sm-12.term-and-conditions h2 {
+
+    padding-top: 15px;
+
+}
+
+.with-complete h3 sub {
+
+    font-size: 28px;
+
+    color: #666666;
+
+}
+
+.col-lg-4.contact-address {
+
+    padding: 0em 2em;
+
+}
+
+}
+
+
+
+
+
+
+
+@media only screen and (min-width : 800px)  and (max-width : 1024px){
+
+	.header-area .header-top_area .short_contact_list {
+
+    text-align: right;
+
+    padding-top: 25px;
+
+}
+
+.header-area .header-top_area .short_contact_list ul li a span {
+
+    font-size: 14px;
+
+}
+
+.col-lg-4.contact-address {
+
+    padding: 0em 2em;
+
+}
+
+
+
+.contact-info__icon {
+
+    margin-right: 15px;
+
+}
+
+}
+
+
+
+
+
+/*stle added by inam*/
+
+/*.plan-table thead th:first-child,
+
+.plan-table tbody td:first-child {
+
+    text-align: left;
+
+}*/
+
+.plan-table thead th:first-child, .plan-table tbody td:first-child {
+    text-align: left;
+    word-break: break-word;
+}
+
+.plan-table thead th, .plan-table tbody td {
+    text-align: center;
+    vertical-align: middle !important;
+}
+
+.table-striped>tbody>tr:nth-of-type(even) {
+
+    background-color: #EBEBEB;
+
+}
+
+.plan-table thead th:nth-child(4) {
+
+    background: #E96057;
+
+    color: #fff;
+
+}
+
+.plan-table thead th:nth-child(3) {
+
+    background: #5E495B;
+
+    color: #fff;
+
+}
+
+.plan-table thead th:nth-child(2) {
+
+    background: #0B949F;
+
+    color: #fff;
+
+}
+
+.plan-table thead th {
+
+    font-size: 23px;
+
+    font-weight: 400;
+
+    border-bottom: 0 !important;
+
+    border-left: 3px solid #fff;
+
+    border-right: 3px solid #fff;
+
+}
+
+.plan-table tbody td {
+
+    border-top: 2px solid #fff !important;
+
+    border-left: 3px solid #fff;
+
+    border-right: 3px solid #fff;
+
+}
+
+.screen.banner-form .form-group select.form-control {
+
+    height: auto;
+
+}
+
+.screen.banner-form .form-group label {
+
+    color: #fff;
+
+    font-weight: 400;
+
+}
+
+.screen.banner-form .form-group label span {
+
+    color: #f00;
+
+}
+
+.header-area .main-header-area .main-menu ul li {
+
+    margin: 0 20px;
+
+}
+
+.header-area .header-top_area .short_contact_list ul li a span {
+
+    font-size: 13px;
+
+}
+
+.header-area .header-top_area {
+
+    box-shadow: 0 0 7px 0 rgba(0,0,0,0.2);
+    position: relative;
+    z-index: 1;
+
+}
+
+.feature-item {
+
+    box-shadow: 0px 10px 31px 0px rgba(11, 148, 159, 0.09);
+
+    padding: 25px 15px;
+
+    border-style: solid;
+
+    border-width: 0px 0px 2px 0px;
+
+    border-color: transparent; 
+
+    transition: all ;
+
+    transition: all 0.5s ease;
+
+}
+
+.feature-item:hover {
+
+    border-color: #0B949F; 
+
+    box-shadow: 0px 10px 20px 0px rgba(11, 148, 159, 0.2);
+
+}
+
+
+
+.btn-primary.form-btn {
+
+    background-color: #e96057;
+
+    border-color: #e96057;
+
+}
+
+.btn-primary.form-btn:hover,
+
+.btn-primary.form-btn:active,
+
+.btn-primary.form-btn:focus {
+
+    background-color: #e96057 !important;
+
+    border-color: #e96057 !important;
+
+    box-shadow: none;
+
+}
+
+.slicknav_btn {
+
+  background-color: #e96057 !important;
+
+  }
+
+  .color-red {
+
+    color: #E96057;
+
+  }
+
+    .color-green {
+
+    color: #0B949F;
+
+  }
+
+  .bg-green{
+
+    background: #0B949F;
+
+  }
+
+.form-bg {
+
+    background-image: url(../img/form-bg.png);
+
+    background-position: bottom right;
+
+    background-repeat: no-repeat;
+
+    background-size: 50% auto;
+
+}
+
+body.modal-open .modal {
+
+    overflow: hidden !important;
+
+    padding: 0 !important;
+
+    background: rgb(0 0 0 / 40%);
+
+    z-index: 99999999999999;
+
+}
+
+.popup-form .modal-header {
+
+    padding-top: 7px;
+
+    padding-bottom: 7px;
+
+}
+
+.popup-form .modal-header .close {
+
+    margin-bottom: 0;
+
+}
+
+.faq-content-inner .card-header .btn.btn-link {
+
+    position: relative;
+
+    width: 100%;
+
+}
+section.testimonial-lower {
+    background: #fafafa;
+    padding: 50px 0;
+    text-align: center;
+}
+.page-title {
+    font-weight: 500;
+    color: #0B949F;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    padding-bottom: 0;
+    margin-top: 0;
+}
+p.fs-18 {
+    font-size: 18px;
+}
+
+/*testimonials slider*/
+
+
+.testimonials-wrapper {
+  width: 95%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.testimonials-wrapper h4 {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23px;
+  position: relative;
+  padding: 30px;
+  color: #222;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 10px 31px 0px rgba(11, 148, 159, 0.09);
+}
+
+.testimonials-blob,
+.testimonials-img {
+  border-radius: 100%;
+}
+
+.testimonials-img {
+  position: relative;
+  /*left: 50%;*/
+  overflow: hidden!important;
+  width: 75px;
+  height: 75px;
+  margin:15px auto 10px;
+  box-shadow: 0px 10px 31px 0px rgba(11, 148, 159, 0.09);
+  transition: all ease-out .5s;
+  transform: translateY(-30%);
+  filter: brightness(2);
+}
+
+.testimonial-carousel .active .testimonials-img {
+  transform: translateY(0);
+  filter: brightness(1);
+}
+
+.testimonials-person-info {
+  text-align: center;
+  color: #fff;
+}
+
+.testimonials-blob {
+  position: relative;
+  left: 68%;
+  width: 3px;
+  height: 3px;
+  transform: rotate(45deg);
+}
+
+@keyframes anim {
+  0% {
+    opacity: 0;
+    box-shadow: 0 0 0 0 #0B949F, 0 0 0 0 #0B949F;
+  }
+  50% {
+    box-shadow: 0 15px 0 0 #0B949F, 0 0 0 0 #0B949F;
+  }
+  100% {
+    opacity: 1;
+    background: #0B949F;
+    box-shadow: 0 15px 0 4px #0B949F, 0 35px 0 6px #0B949F;
+  }
+}
+
+.testimonial-carousel .active .testimonials-blob {
+  transform-origin: 50% 50%;
+  animation: anim linear .5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.testimonial-carousel {
+  /*overflow: hidden;*/
+  cursor: grab;
+}
+
+.testimonial-carousel:active {
+  cursor: grabbing;
+}
+
+.testimonial-carousel .owl-item {
+  overflow: hidden;
+  transition: all ease-out .3s;
+  transform: scale(.7);
+  opacity: 0;
+}
+
+.testimonial-carousel .owl-item.active {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.testimonial-carousel .owl-next,
+.testimonial-carousel .owl-prev {
+  font-size: 13px;
+  line-height: 35px;
+  position: absolute;
+  top: 50%;
+  padding: 0 10px;
+  transition: all ease-out .25s;
+  transform: translateY(-100%);
+  opacity: 1;
+  color: #fff;
+  border-radius: 3px;
+  background: #171719
+}
+
+.testimonial-carousel .owl-next:hover,
+.testimonial-carousel .owl-prev:hover {
+  color: #fff;
+  background: #615e6b
+}
+
+.testimonial-carousel .owl-prev {
+  left: 0
+}
+
+.testimonial-carousel .owl-next {
+  right: 0
+}
+
+.testimonial-carousel .owl-next.disabled,
+.testimonial-carousel .owl-prev.disabled {
+  opacity: 0
+}
+.testimonials-person-info p > b {
+    color: #e96057;
+}
+.owl-carousel .owl-nav div, .owl-carousel .owl-nav div:hover {
+    background-color: transparent !important;
+    color: #e96057 !important;
+    font-size: 45px;
+}
+
+
+@media screen and (max-width: 991px) and (min-width: 766px) {
+
+  .testimonials-blob {
+      left: 80%;
+  }
+
+}
+
+@media only screen and (max-width: 414px) {
+  .testimonials-blob {
+      left: 75%;
+  }
+}
+
+.owl-carousel .owl-nav div > i::before {
+    font-family: "FontAwesome";
+    font-size: 56px;
+    line-height: 1;
+    opacity: 1;
+    font-weight: 400;
+    color: #e96057;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/*testimonials slider*/
+
+a.site-link {
+    font-weight: 500;
+    color: #e96057;
+}
+#navigation li.active a {
+
+    color: #0b949f !important;
+
+}
+#multistep_form fieldset:not(:first-of-type) {
+  display: none;
+}
+
+.quote-section {
+    background-color: #0b949f;
+    padding: 60px 0;
+}
+section#features {
+    padding: 50px 0 60px;
+}
+input.btn.btn-custom,
+a.btn.btn-custom {
+
+    background: #e96057;
+
+    color: #fff;
+
+    margin-left: 20px;
+
+    margin-bottom: 25px;
+
+  text-transform: uppercase;  
+
+  font-family: 'Montserrat', sans-serif;
+
+}
+.quote-section h1 {
+    line-height: 1.3;
+    font-size: 32px;
+    margin: 0 0 30px;
+}
+.quote-section h1 a {
+    color: #5e495b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1199px) {
+
+  .header-area .header-top_area .short_contact_list ul li a {
+
+      font-size: 18px;
+
+      font-weight: 600;
+
+  }
+
+  .header-area .header-top_area .short_contact_list ul li a span {
+
+      font-size: 10px;
+
+  }
+
+
+
+}
+
+
+
+@media only screen and (max-width: 991px) {
+
+.mobile-menu > .mobile_menu .slicknav_nav {
+
+    left: 0 !important;
+
+    top: 103px!important;
+
+    z-index: 9999;
+
+}
+
+.mobile-menu > .mobile_menu {
+
+    position: static;
+
+}
+
+.mobile-menu {
+
+    position: static !important;
+
+}
+
+.home-plan .plan-table thead th {
+    font-size: 18px;
+}
+
+}
+
+@media only screen and (max-width: 767px) {
+
+.screen.banner-form {
+
+    position: static !important;
+
+}
+
+.slider_area .single_slider {
+
+    height: auto;
+
+    background-size: cover;
+
+}
+
+.col-lg-5.banner-form-wrap {
+
+    top: 0 !important;
+
+    margin: 0 0 20px;
+
+}
+
+.feature-item {
+
+    margin: 0 0 30px;
+
+    height: auto !important;
+
+}
+
+.contact-section .col-lg-8, .contact-section .col-lg-8 > div {
+
+    padding-left: 0;
+
+    padding-right: 0;
+
+}
+
+.mobile-menu > .mobile_menu{position: absolute ;}
+
+.mobile-menu {position: relative !important;}
+
+.mobile-menu > .mobile_menu .slicknav_nav {top: 7px!important;}
+
+body .owl-nav > .owl-prev {
+  left: 0 !important;
+}
+body .owl-nav > .owl-next {
+  right: 0 !important;
+}
+.skin_srolld .logo img {
+    width: auto;
+}
+
+
+
+}
+
+
+
+@media only screen and (max-width: 575px) {
+
+.header-area .header-top_area > div {
+
+    padding: 0 35px;
+
+}
+
+.plan-table .btn-custom {
+    width: 100%;
+    word-break: break-word;
+    font-size: 10px;
+    font-weight: 600;
+    white-space: pre-wrap;
+    padding-left: 0;
+    padding-right: 0;
+}
+.plan-table thead th:first-child {
+    width: 40%;
+}
+.plan-table thead th {
+    width: 20%;
+}
+.home-plan .plan-table thead th {
+    font-size: 13px;
+}
+.plan-table thead th:first-child, .plan-table tbody td:first-child {
+    font-size: 13px;
+}
+
+
+}
+
+/*@media only screen and (max-width: 479px) {
+
+
+.home-plan .plan-table thead th {
+    font-size: 13px;
+}
+
+
+
+}*/
+
+
+
+@media only screen and (min-width: 1025px) {
+
+.slick-slider {
+
+    width: 90%;
+
+    margin: 0 auto;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+/*temp*/
+
+.landing-page-form .btn {
+    margin: 50px 0 0 !important;
+}
+.landing-page-form .progress {
+    margin: -108px 0 100px;
+}
+body .row::before, body .row::after {display: none !important;}
+
+
+
+
+.banner-form .form-group {
+  text-align:left;
+}
+
+.banner-form {
+  text-align: center;
+}
+
+.banner-form input.form-btn {
+  margin: 0 auto;
+}
+
+/*temp*/
+
+
+
+.valid_c {
+color:#F32013
+}
+
+
+
+
+
+
+
+/*stle added by inam
+
+

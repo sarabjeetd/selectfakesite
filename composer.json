@@ -1,0 +1,5 @@
+{
+    "require": {
+        "verifalia/sdk": "^2.1"
+    }
+}

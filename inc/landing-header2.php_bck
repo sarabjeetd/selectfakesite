@@ -1,0 +1,102 @@
+<!Doctype html>
+<?php //define ('SITEURL', 'https://selectautoprotect.com/'); ?>
+<?php define ('SITEURL', '/'); ?>
+<!-- Global site tag (gtag.js) - Google Ads: 370456452 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-370456452"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-370456452');
+</script>
+<html class="no-js" lang="zxx">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Select Auto Protect</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo SITEURL;?>img/autofavicon.png">
+    <!-- CSS here -->
+      <link rel="stylesheet" href="<?php echo SITEURL;?>css/fontawesome.min.css"  />
+    <link rel="stylesheet" href="<?php echo SITEURL;?>css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo SITEURL;?>css/style.css?ver=<?php echo rand(); ?>">
+    <link rel="stylesheet" href="<?php echo SITEURL;?>css/slicknav.css">
+  <link rel="stylesheet" href="<?php echo SITEURL;?>css/googleapis.min.css">
+  <link rel="stylesheet" href="<?php echo SITEURL;?>css/bootstrapcdn.min.css">
+  <link rel="stylesheet" href="<?php echo SITEURL;?>css/owlcarousel.min.css">
+<script type="text/javascript" 
+    src="https://www.nq0trk.com/scripts/sdk/everflow.js"></script>
+<script type="text/javascript">
+EF.click({
+        offer_id: EF.urlParameter('oid'),
+    affiliate_id: EF.urlParameter('affid'),
+    sub1: EF.urlParameter('sub1'),
+    sub2: EF.urlParameter('sub2'),
+    sub3: EF.urlParameter('sub3'),
+    sub4: EF.urlParameter('sub4'),
+    sub5: EF.urlParameter('sub5'),
+    uid: EF.urlParameter('uid'),
+    source_id: EF.urlParameter('source_id'),
+    transaction_id: EF.urlParameter('_ef_transaction_id'),
+});
+</script>
+
+</head>
+<body>
+<header>
+        <div class="header-area">
+            <div class="header-top_area skin p-0" id="skin_h">
+                    <div class="container">
+                        <div class="row align-items-center py-3">
+                            <div class="col-lg-3 col-md-4">
+                                <div class="social_media_links text-left">
+                                    <div class="logo">
+                                      <a href="../index.php" class="m-0">
+                                        <img src="<?php echo SITEURL;?>img/auto-logo.png" alt="Logo">
+                                        <!-- <img src="<?php echo SITEURL;?>img/logo.png" alt="Logo"> -->
+                                      </a>
+                                    </div>
+                                    <div class="contact">
+                                    <i class="fa fa-volume-control-phone"></i>860 327 4477<br>
+                                    <p> CALL FOR YOUR FREE QUOTE NOW!
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-4 d-none d-lg-block">
+                                <!-- <div id="" class="main-header-area bg-transparent"> 
+                                        <div class="row align-items-center">
+                                            <div class="col-xl-12 col-lg-12">
+                                                <div class="main-menu  d-none d-lg-block">
+                                                    <nav>
+                                                        <ul id="navigation">
+                                                            <li class="home-menu"><a  href="index.php">home</a></li>
+                                                            <li><a href="plan.php">plan</a></li>
+                                                            <li><a href="faq.php">faq</a></li>
+                                                            <li><a href="contact-us.php">contact us</a></li>
+                                                        </ul>
+                                                    </nav>
+                                                </div>
+                                            </div>
+                                            
+                                        </div> 
+                                </div> -->
+                            </div>
+                            <div class="col-lg-3 col-md-4 d-none d-lg-block">
+                                <div class="short_contact_list d-none d-lg-flex justify-content-end text-left p-0">
+                                    <ul>
+                                        <li><a href="tel:8603274477"><i class="fa fa-phone"></i>860 327 4477</a></li>
+                                        <li><a href="tel:8603274477"><span>Call For Your Free Quote Now!</span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-md-8 p-0 mobile-menu">
+                                <div class="mobile_menu d-block d-lg-none"></div>
+                            </div>
+                        </div>
+                    </div>
+                        
+            </div>
+        </div>
+    </header>
