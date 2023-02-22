@@ -1563,7 +1563,8 @@ hr {
 /* line 4, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_service.scss */
 
 .service_area {
-  padding: 3em 5em 3em;
+  padding: 5em 5em;
+  background-color:#fafafa;
 }
 
 .primary-border {
