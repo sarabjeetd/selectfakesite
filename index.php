@@ -277,11 +277,11 @@ $years = array_combine(range(date('Y', strtotime('+1 year')), 1999), range(date(
     <?php include 'inc/features.php'; ?>
     <!-- Features_area_Start -->
       <!-- Plan_area_start  -->
-      <div class="service_area py-0">
+      <div class="service_area" >
            <div class="row justify-content-center ">
                <div class="col-lg-12 col-md-12">
                    <div class="section_title text-center mb-95">
-                      <h2>COULD YOU AFFORD A $5,000 AUTO REPAIR BILL TODAY?</h2>
+                      <h2 class="mt-0">COULD YOU AFFORD A $5,000 AUTO REPAIR BILL TODAY?</h2>
             <p>An Auto warranty plan from Select Auto Protect saves you from expensive surprises.</p>
             <hr>
                    </div>
