@@ -1430,12 +1430,16 @@ section#features {
   font-family: "Montserrat", sans-serif;
 }
 
-.feature-item img {
+.features .feature-item img {
   height: 100px;
   margin-bottom: 20px;
   background-color: #3794a01f;
   padding: 10px;
   border-radius: 5px 35px 5px 5px;
+}
+.feature-item img {
+  height: 100px;
+  margin-bottom: 20px;
 }
 
 .feature-item p {
@@ -1568,6 +1572,7 @@ hr {
 .service_area {
   padding: 5em 5em;
   background-color:#fafafa;
+  background-image: url('../img/sap_bg_img.png');
 }
 
 .primary-border {
