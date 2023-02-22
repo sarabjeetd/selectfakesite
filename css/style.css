@@ -4338,8 +4338,8 @@ a.site-link {
 }
 
 .quote-section {
-  background-color: #0b949f;
-  padding: 60px 0;
+  background-color: #1c505a;
+  padding: 80px 0;
 }
 
 section#features {
@@ -4363,7 +4363,7 @@ a.btn.btn-custom {
 }
 
 .quote-section h1 a {
-  color: #5e495b;
+  color: #de625b;
 }
 
 .faq-content-inner .card-header button.btn.btn-link.collapsed,
