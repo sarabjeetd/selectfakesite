@@ -113,7 +113,7 @@ function get_client_ip() {
 function insert_data($data){
 	
 	
-	$service_url = "https://crm.selectautoprotect.com/admin/api/getToken";
+	$service_url = "https://dev.crm.selectautoprotect.com/admin/api/getToken";
 	$curl_post_dataa= [	
 		'token'	=> $data['sys_id'],
 		'crm_token'=> ')HiQ@xS8/!RY/lY'       ,
@@ -140,7 +140,7 @@ function insert_data($data){
 
 	if ($token_result->status == 'success' && $difference_minute <= $token_result->data->lifetime ) {
 
-	$service_url = "https://crm.selectautoprotect.com/track_webpage";
+	$service_url = "https://dev.crm.selectautoprotect.com/track_webpage";
 	$curl_post_data = [
 						'ip' => isset($data['ip'])?$data['ip']:'',
 					'referrer_site' => isset($data['referrer_site'])?$data['referrer_site']:'',
@@ -297,7 +297,7 @@ function getBrowserInfo(){
 }
 
 function save_leads($data){
-	$service_url = "https://crm.selectautoprotect.com/admin/api/getToken";
+	$service_url = "https://dev.crm.selectautoprotect.com/admin/api/getToken";
 	$curl_post_daa= [	
 		'token'	=> $data['sys_id'],
 		'crm_token'=> ')HiQ@xS8/!RY/lY'       ,
@@ -322,7 +322,7 @@ function save_leads($data){
 	$difference_minute =  $time_diff/60;
  
 	if ($token_result->status == 'success' && $difference_minute <= $token_result->data->lifetime ) {
-	$service_url = "https://crm.selectautoprotect.com/admin/api/savesapleads";
+	$service_url = "https://dev.crm.selectautoprotect.com/admin/api/savesapleads";
 	$curl_post_data = [
 						'first_name' => $data['first_name'],
 						'last_name' => $data['last_name'],
@@ -401,7 +401,7 @@ function save_leads($data){
 
 function update_lead_status($data){
 	
-	$service_url = "https://crm.selectautoprotect.com/admin/api/update_lead_status";
+	$service_url = "https://dev.crm.selectautoprotect.com/admin/api/update_lead_status";
 	$curl_post_data = [
 						
 			'posted_to_vs'				=> $data['posted_to_vs'],
@@ -440,7 +440,7 @@ function getLeadsourceData(){
     $id = isset($_GET['ref'])?$_GET['ref']:0;
 
 
-	$service_url = "https://crm.selectautoprotect.com/admin/api/getSource?lead_source=".$id;
+	$service_url = "https://dev.crm.selectautoprotect.com/admin/api/getSource?lead_source=".$id;
     // echo "<p style='display:none' id='sarab'>";
     //     print_r($_SESSION);
     //     print_r($_GET);

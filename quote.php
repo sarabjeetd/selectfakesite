@@ -1,4 +1,7 @@
-<?php include 'inc/landing-header.php'; ?>
+<?php
+ini_set('display_errors',0);
+
+include 'inc/landing-header.php'; ?>
 <style type="text/css">
 .banner-form .g-recaptcha.stage_3 {
     margin-bottom: 10px;

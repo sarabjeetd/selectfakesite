@@ -27,7 +27,7 @@ if (isset($_POST)) {
         }
     }else{
 
-        $service_url = "https://crm.selectautoprotect.com/admin/Apicron/phonevalidate";
+        $service_url = "https://dev.crm.selectautoprotect.com/admin/Apicron/phonevalidate";
 	    $curl_post_data = [
             'phones' =>  base64_decode($_POST['payload']),
         ];			

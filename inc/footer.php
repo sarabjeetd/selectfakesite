@@ -968,7 +968,7 @@ $(document).on('keyup', '#quote_mileage', function(e) {
 </script>
 <?php
 date_default_timezone_set('US/Eastern');
-$service_url = "https://crm.selectautoprotect.com/getCallSetting";
+$service_url = "https://dev.crm.selectautoprotect.com/getCallSetting";
 //$service_url = "http://sap_admin.local/getCallSetting";
 //$auth = "demo@sap.com:password";
 $curl = curl_init($service_url);

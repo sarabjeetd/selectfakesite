@@ -141,7 +141,7 @@ color: #ffffff !important;
       </div>
       <div class="col-12 text-center">
         <div class="cstm-btn-mrg">
-          <a href="https://selectautoprotect.com/reviews.php" class="cstm-btn-rev">View All</a>
+          <a href="http://localhost:81/reviews.php" class="cstm-btn-rev">View All</a>
         </div>
       </div>
     </div>

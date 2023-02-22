@@ -3,7 +3,7 @@
 $cfg = new stdClass();
 
 $cfg->environment = 'production';// can be production or development 
-$cfg->siteurl = 'https://selectautoprotect.com/';
+$cfg->siteurl = 'http://localhost:81/';
 
 if($cfg->environment == 'production'){
     ini_set('display_error','0');

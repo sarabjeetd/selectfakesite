@@ -1,4 +1,6 @@
 <?php 
+ini_set('display_errors',0);
+
 require_once('config.php');
 define ('SITEURL', $cfg->siteurl);
 $title = 'Select Auto Protect - Extended Car Warranty';
@@ -108,7 +110,7 @@ $years = array_combine(range(date('Y', strtotime('+1 year')), 1999), range(date(
                      <!-- <input type="button" name="password" class="btn btn-primary next " value="Next" id="next1" style='margin-left:15px' disabled /> -->
                       </div>
                      <p class="banner-form-agreement">By clicking “Get Your Free Quote” button you agree to our <span>
-                      <a href="https://selectautoprotect.com/serviceagreement.php">Terms & Conditions.</a></span></p>
+                      <a href="http://localhost:81/serviceagreement.php">Terms & Conditions.</a></span></p>
   	            </div>
               </fieldset>
 

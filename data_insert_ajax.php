@@ -4,7 +4,7 @@ include('db.php');
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-    $service_url = "https://crm.selectautoprotect.com/track_webpage";
+    $service_url = "https://dev.crm.selectautoprotect.com/track_webpage";
     $curl_post_data = [
                         'ip' => get_client_ip(),
                         'referrer_site' => $_POST['referrer_site'],

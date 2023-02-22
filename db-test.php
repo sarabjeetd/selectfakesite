@@ -22,7 +22,7 @@ function get_client_ip() {
 }
 function insert_data($data){
 	
-	$service_url = "http://sap_crm.local/track_webpage";
+	$service_url = "http://sap_dev.crm.local/track_webpage";
 	$curl_post_data = [
 						'ip' => $data['ip'],
 						'referrer_site' => $data['referrer_site'],
@@ -169,7 +169,7 @@ function getBrowserInfo(){
 }
 function save_leads($data){
 	
-	$service_url = "https://crm.selectautoprotect.com/savesapleads";
+	$service_url = "https://dev.crm.selectautoprotect.com/savesapleads";
 	$curl_post_data = [
 						'first_name' => $data['first_name'],
 						'last_name' => $data['last_name'],

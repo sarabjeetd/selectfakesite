@@ -2,7 +2,7 @@
 session_start();
 include "db.php";
 if(isset($_POST)){
-	$service_url = "https://dev.crm.selectautoprotect.com/admin/Apicron/phonevalidate";
+	$service_url = "https://dev.dev.crm.selectautoprotect.com/admin/Apicron/phonevalidate";
 	$curl_post_data = [
 						'phones' => $_POST['phones'],
 					];			

@@ -5,7 +5,7 @@ if (isset($_POST)) {
 	$error = '';
     $_SESSION['fraud_chance']   =  $_POST['result']['fraud_chance'];
     $_SESSION['dv_request_id']   =  $_POST['result']['request_id'];
-    $service_url = "https://crm.selectautoprotect.com/admin/Apicron/lead_device_info";
+    $service_url = "https://dev.crm.selectautoprotect.com/admin/Apicron/lead_device_info";
     $_POST['result']['created_at'] = date('Y-m-d H:i:s');	
     $_POST['result']['cur_url'] = $_POST['cur_url'];
     //$auth = "demo@sap.com:password";

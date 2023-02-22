@@ -3,7 +3,7 @@ session_destroy();
 session_start(); 
 include('db.php');?>
 <!Doctype html>
-<?php //define ('SITEURL', 'https://selectautoprotect.com/'); ?>
+<?php //define ('SITEURL', 'http://localhost:81/'); ?>
 <html class="no-js" lang="en">
 
 <?php include('api_validate.php');
@@ -13,16 +13,7 @@ $randomnumber = uniqid();
 $randomnumber;
 ?>
 <head>
-<script type="text/javascript">
-    window.__lo_site_id = '7de7b3ff';
-    (function() {
-      var wa = document.createElement('script');
-      wa.type = 'text/javascript'; wa.async = true;
-      wa.src = 'https://d20519brkbo4nz.cloudfront.net/core/lo.js';
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(wa, s);
-    })();
-  </script>
+
 <script src="https://www.ipqscdn.com/api/selectautoprotect.com/GqsywR6r6oZty0Ivd5WN7HCwWm0yURdyNTnfwFjQ8i3PF3uDBbu3qE5jCj92kuARFTPThK4EBfCNi06YUIrBqBDBx8rQ41Na0LNGSzFsypwQQ26MAXZRQ5TSa5O29nGAFCvUdsn8AP4WESLVOj3GDGD7LNCiCuOhCkrMw8wvj5tXIEKULQIRVQKeS4FVOlXYPjLka5e0z8Sg1AqnTGr1q6ie0wUXk5j5ApA7qMUoWtZ0t9azEUYYPdOn8V0ONifx/learn.js" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <?php  if( $ipqualityscore['proxy'] != 1 || $ipqualityscore['bot_status'] !=1 || $ipqualityscore['fraud_score'] <= 50 ){ ?>
