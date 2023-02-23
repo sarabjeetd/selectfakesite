@@ -1120,7 +1120,7 @@ ul#navigation {
 /* line 1, ../../Arafath/CL/january 2020/240. Animal/HTML/scss/_slider.scss */
 
 .slider_bg_1 {
-  background-image: url(../img/home-page-background_1.jpg);
+  background-image: url(../img/home-page-background_3.jpg);
   background-blend-mode: color;
 
 }
@@ -1174,7 +1174,7 @@ ul#navigation {
   font-style: italic;
 }
 .slider_area .single_slider .slider_text h2 {
-    font-size: 32px;
+    font-size: 36px;
     color: #fff;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
@@ -1196,8 +1196,8 @@ ul#navigation {
     font-weight: 600;
 }
 div#ready-2 h1 {
-  /*padding-top: 125px;*/
   margin-top: 0;
+  display: inline-block;
 }
 
 .slider_text.home-slide h1 {
@@ -1385,8 +1385,9 @@ ul.home-list li i {
   font-weight: 800;
   color: #e96057;
   font-family: "Montserrat", sans-serif;
-  font-size:48px;
+  font-size:72px;
   font-style:italic;
+  display:inline-block;
 }
 
 section#features {
@@ -2383,7 +2384,7 @@ figure.testimonial .peopl h3 {
 
 .privacy-policy ul li:before,
 .term-and-conditions ul li:before {
-  content: "✔";
+  content: "âœ”";
   color: rgb(255, 255, 255);
   margin-right: 10px;
   font-weight: normal;

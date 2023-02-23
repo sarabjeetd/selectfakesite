@@ -1,0 +1,1 @@
+Put apache, php and docker-compose file at the root with public_html folder

@@ -28,7 +28,7 @@ background-size: cover;
             </div>
         </div> -->
 
-                <div class="row align-items-center">
+                <div class="row align-items-center m-0">
                 	<!-- id="ready-2" -->
                     <div class="col-lg-5 col-md-6 col-sm-12 float-left" id="ready-2">
 

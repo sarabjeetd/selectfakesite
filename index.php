@@ -277,11 +277,11 @@ $years = array_combine(range(date('Y', strtotime('+1 year')), 1999), range(date(
     <?php include 'inc/features.php'; ?>
     <!-- Features_area_Start -->
       <!-- Plan_area_start  -->
-      <div class="service_area py-0">
+      <div class="service_area" >
            <div class="row justify-content-center ">
                <div class="col-lg-12 col-md-12">
                    <div class="section_title text-center mb-95">
-                      <h2>COULD YOU AFFORD A $5,000 AUTO REPAIR BILL TODAY?</h2>
+                      <h2 class="mt-0">COULD YOU AFFORD A $5,000 AUTO REPAIR BILL TODAY?</h2>
             <p>An Auto warranty plan from Select Auto Protect saves you from expensive surprises.</p>
             <hr>
                    </div>
@@ -392,7 +392,7 @@ $years = array_combine(range(date('Y', strtotime('+1 year')), 1999), range(date(
     <!-- Testimonial Lower Section -->
     <?php include 'inc/reviews.php'; ?>
     <!-- Testimonial Lower Section -->
-    <section class="why-choose pb-0 pt-5">
+    <section class="why-choose pb-4">
     <div class="container">
       <div class="row pb-5">
   		<div class="col-sm-12">
@@ -415,7 +415,7 @@ $years = array_combine(range(date('Y', strtotime('+1 year')), 1999), range(date(
       </div>
     </div>
     <div class="row justify-content-center">
-          <div class="col-sm-3 ">
+    <div class="col-sm-3 ">
       <a class="cr-lt" href="<?php echo SITEURL ?>bmw-extended-warranty.php"><img class="wd-img" alt="BMW extended warranty" title="BMW extended warranty" src="img/bmw.png"></a>
       </div>
   	<div class="col-sm-3 ">
@@ -429,7 +429,7 @@ $years = array_combine(range(date('Y', strtotime('+1 year')), 1999), range(date(
       </div>
     </div>
     <div class="row justify-content-center">
-          <div class="col-sm-3 ">
+    <div class="col-sm-3 ">
       <a class="cr-lt" href="<?php echo SITEURL ?>cadillac-extended-warranty.php"><img class="wd-img" alt="Cadillac extended warranty" title="Cadillac extended warranty" src="img/Cadillac.png"></a>
       </div>
   		<div class="col-sm-3 ">
@@ -441,9 +441,9 @@ $years = array_combine(range(date('Y', strtotime('+1 year')), 1999), range(date(
   	<div class="col-sm-3 ">
       <a class="cr-lt" href="<?php echo SITEURL ?>ford-extended-warranty.php"><img class="wd-img" alt="Ford extended warranty" title="Ford extended warranty"  src="img/ford.png"></a>
       </div>
-  	</div>
-  	<div class="row justify-content-center">
-      <div class="col-sm-3 ">
+    </div>
+  <div class="row justify-content-center">    
+    <div class="col-sm-3 ">
       <a class="cr-lt" href="<?php echo SITEURL ?>hyundai-extended-warranty.php"><img class="wd-img" alt="Hyundai extended warranty" title="Hyundai extended warranty" src="img/hyundai.png"></a>
       </div>
   	<div class="col-sm-3 ">
@@ -455,19 +455,24 @@ $years = array_combine(range(date('Y', strtotime('+1 year')), 1999), range(date(
   	<div class="col-sm-3 ">
       <a class="cr-lt" href="<?php echo SITEURL ?>infiniti-extended-warranty.php"><img class="wd-img" alt="Infiniti extended warranty" title="Infiniti extended warranty" src="img/infiniti.png"></a>
       </div>
+  </div> 
+  <div class="row justify-content-center">  
   	<div class="col-sm-3 ">
       <a class="cr-lt" href="<?php echo SITEURL ?>mazda-extended-warranty.php"><img class="wd-img" alt="Mazda extended warranty" title="mazda extended warranty" src="img/mazda.png"></a>
       </div>
   	<div class="col-sm-3 ">
       <a class="cr-lt" href="<?php echo SITEURL ?>maserati-extended-warranty.php"><img class="wd-img" alt="Maserati extended warranty" title="Maserati extended warranty" src="img/maserati.png"></a>
-      </div>
-  	<div class="col-sm-3 ">
+      </div> 
+      <div class="col-sm-3 ">
       <a class="cr-lt" href="<?php echo SITEURL ?>lincoln-extended-warranty.php"><img class="wd-img" alt="Lincoln extended warranty" title="Lincoln extended warranty" src="img/lincoln.png"></a>
       </div>
   	<div class="col-sm-3 ">
       <a class="cr-lt" href="<?php echo SITEURL ?>mercedes-benz-extended-warranty.php"><img class="wd-img" alt="Mercedes Benz extended warranty" title="Mercedes Benz extended warranty" src="img/mercedes-benz.png"></a>
       </div>
-  	<div class="col-sm-3 ">
+  	</div>
+
+  	<div class="row justify-content-center">
+  	<div class="col-sm-3">
       <a class="cr-lt" href="<?php echo SITEURL ?>lexus-extended-warranty.php"><img class="wd-img" alt="Lexus extended warranty" title="lexus extended warranty" src="img/lexus.png"></a>
       </div>
   	</div>	

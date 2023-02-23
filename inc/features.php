@@ -1,4 +1,4 @@
-<section class="features pb-5" id="features">
+<section class="features" id="features">
     <div class="container">
       <div class="section-heading text-center">
         <h2 class="mb-4">Cover the Repair of Your Car</h2>
