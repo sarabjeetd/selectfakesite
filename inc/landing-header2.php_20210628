@@ -1,5 +1,5 @@
 <!Doctype html>
-<?php define ('SITEURL', 'http://localhost:81/'); ?>
+<?php define ('SITEURL', 'http://localhost/'); ?>
 <html class="no-js" lang="zxx">
 <head>
     <meta charset="utf-8">

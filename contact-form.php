@@ -83,25 +83,6 @@ $headers = 'From: '.$email."\r\n".
 'X-Mailer: PHP/' . phpversion();
 @mail($email_to, $email_subject, $email_message, $headers);  
 
-$curl = curl_init();
-
-curl_setopt_array($curl, array(
-  CURLOPT_URL => "https://new.vanillasoft.net/web/post.aspx?id=67867",
-  CURLOPT_RETURNTRANSFER => true,
-  CURLOPT_ENCODING => "",
-  CURLOPT_MAXREDIRS => 10,
-  CURLOPT_TIMEOUT => 0,
-  CURLOPT_FOLLOWLOCATION => true,
-  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-  CURLOPT_CUSTOMREQUEST => "POST",
-  CURLOPT_POSTFIELDS => array('Address' => clean_string($address),'Email' => clean_string($email),'First_Name' => $first_name ,'Phone' => clean_string($phone),'Last_Name' => $last_name,'Zip_Code' => clean_string($zip_code)),
-));
-
-$response = curl_exec($curl);
-
-curl_close($curl);
-echo $response;
-
 ?>
  
 <!-- include your own success html here -->

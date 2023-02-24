@@ -3,7 +3,7 @@
 $cfg = new stdClass();
 
 $cfg->environment = 'production';// can be production or development 
-$cfg->siteurl = 'http://localhost:81/';
+$cfg->siteurl = 'http://localhost/';
 
 if($cfg->environment == 'production'){
     ini_set('display_error','0');

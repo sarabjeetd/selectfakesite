@@ -38,12 +38,13 @@ $_SESSION['previous'] = $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
                         </script> Select Auto Protect LLC All rights reserved.
                         <!-- <a href="docx/Select-Auto-Protect-Service-Agreement.pdf" target="_blank"  Title="Terms and Conditions">Service Agreement</a> | <a href="docx/My-Online-Privacy-Policy.pdf" target="_blank" >Privacy Policy</a>
 							-->
-						<a href="/serviceagreement.php" target="_blank"  Title="Terms and Conditions">Service Agreement</a> | <a href="/privacypolicy.php" target="_blank" >Privacy Policy</a>
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
+                        <a href="/serviceagreement.php" target="_blank" Title="Terms and Conditions">Service
+                            Agreement</a> | <a href="/privacypolicy.php" target="_blank">Privacy Policy</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 </footer>
 <!-- footer_end  -->
 <!-- Modal Form Start -->
@@ -650,86 +651,157 @@ $(function() {
 });
 </script>
 <script>
-	$(document).ready(function(){  
-	  var form_count = 1, form_count_form, next_form, total_forms;
-	total_forms = $("fieldset").length;  
-	$(".next").click(function(event){
-    event.preventDefault();
-    var spinid = $(this).attr('id');
-   
-           let previous = $(this).closest("fieldset").attr('id');
-         let next = $('#'+this.id).closest('fieldset').next('fieldset').attr('id');
-		 let ref = $("#ref").val();
-		
-		 var siteurl = "<?php echo SITEURL; ?>";
-		 var formArray = $('#multistep_form').serializeArray();
-		 var request_id = $('#request_id').val();
-		 var dev_rand_id = $('#dev_rand_id').val();
-		var dev_f_chance = $('#dev_f_chance').val();
-         var sys_id = $('#sys_id').val();
-    // console.log(formArray);
-		 $.ajax({
-           url: siteurl+'track.php',
-         type: 'POST',
-         data: {
-           req_dump: next,
-			cur_url: window.location.href,
-			ref: ref,
-			rq_data: request_id,
-			sys_id: sys_id,
-			formArray: formArray
-         },
-         beforeSend: function(){
-            $('#'+spinid).addClass('loading');
-          },
-         success: function( response ) {
-			
-            $('#'+spinid).removeClass('loading');
-          var myObject = JSON.parse( response );
-            if(myObject.response =='error'){
-              $('.VPN_message').html('Request from VPN connection is not supported at the moment');
-              return false;
-            }else{
-              $('.VPN_message').html('');
-              $('#'+next).show();
-              $('#'+previous).hide();
-              setProgressBar(++form_count);
-              if(stage_2() == false) {
-                
-                  $('#next2').prop('disabled',true); 
-              } else if(stage_3() == true) {
-                
-                      event.preventDefault();
-                      var quote_year = $('#quote_year').val();
-                    var quote_make = $('#quote_make').val();
-                    var quote_mileage = $('#quote_mileage').val();
-                    var quote_model = $('#quote_model').val();
-                    var quote_phone = $('#quote_phone').val();
-                    var quote_first_name = $('#quote_first_name').val();
-                    var quote_last_name = $('#quote_last_name').val();
-                    var quote_email = $('#quote_email').val();
-                    var home_phone = $('#home_phone').val();
-                    var quote_zipcode = $('#quote_zip').val();
-                    var affid = $('#affid').val();
-                    var ref = $('#ref').val();
-                    var sid = $('#sid').val();
-                    var uid = $('#uid').val();
-                    var gclid = $('#gclid').val();
-                    var tier = $('#tier').val();
-                    var utm_source = $('#utm_source').val();
-                    var utm_medium = $('#utm_medium').val();
-                    var utm_campaign = $('#utm_campaign').val();
-                    var utm_content = $('#utm_content').val();
-                    var utm_term = $('#utm_term').val();
-                    var request_id = $('#request_id').val();
-					var dev_rand_id = $('#dev_rand_id').val();
-					var zr_track_id = $('#zr_track_id').val();
-                    var sys_id = $('#sys_id').val();
-                    var ip = '<?php echo get_client_ip();  ?>';
-                    if($('#qtype').val() && $('#qtype').val() == 'qp'){
-                        var qtype = $('#qtype').val();
-                    }else{
-                        var qtype = null;
+$(document).ready(function() {
+    var form_count = 1,
+    form_count_form, next_form, total_forms;
+    total_forms = $("fieldset").length;
+    $(".next").click(function(event) {
+        
+        event.preventDefault();
+        var spinid = $(this).attr('id');
+        let previous = $(this).closest("fieldset").attr('id');
+        let next = $('#' + this.id).closest('fieldset').next('fieldset').attr('id');
+        let ref = $("#ref").val();
+
+        var siteurl = "<?php echo SITEURL; ?>";
+        var formArray = $('#multistep_form').serializeArray();
+        var request_id = $('#request_id').val();
+        var dev_rand_id = $('#dev_rand_id').val();
+        var dev_f_chance = $('#dev_f_chance').val();
+        var sys_id = $('#sys_id').val();
+        
+        $.ajax({
+            url: siteurl + 'track.php',
+            type: 'POST',
+            data: {
+                req_dump: next,
+                cur_url: window.location.href,
+                ref: ref,
+                rq_data: request_id,
+                sys_id: sys_id,
+                formArray: formArray
+            },
+            beforeSend: function() {
+                $('#' + spinid).addClass('loading');
+            },
+            success: function(response) {
+              //  console.log(stage_3());
+                $('#' + spinid).removeClass('loading');
+                var myObject = JSON.parse(response);
+                if (myObject.response == 'error') {
+                    $('.VPN_message').html(
+                        'Request from VPN connection is not supported at the moment');
+                    return false;
+                } else {
+                    
+                    console.log("Reached 1");
+                    console.log("stage 2 = " + stage_2() );
+
+
+                    $('.VPN_message').html('');
+                    $('#' + next).show();
+                    $('#' + previous).hide();
+                    setProgressBar(++form_count);
+                    if (stage_2() == false) {
+                        console.log("Reached 2");
+
+                        $('#next2').prop('disabled', true);
+                    } else if (stage_3() == true) {
+                        console.log("Reached 3");
+
+                        var googleResponse = jQuery('#g-recaptcha-response').val();
+                        var captchaResponse = window.grecaptcha.getResponse();
+                        
+                        if (captchaResponse === "") {
+
+                            $("#form-loader").attr("style","display:block");
+
+                            $(location).attr('href',
+                                "<?php echo SITEURL . 'thank-you.php?es=2'; ?>")
+                            return false;
+                        }
+                        
+                        event.preventDefault();
+                        var quote_year = $('#quote_year').val();
+                        var quote_make = $('#quote_make').val();
+                        var quote_mileage = $('#quote_mileage').val();
+                        var quote_model = $('#quote_model').val();
+                        var quote_phone = $('#quote_phone').val();
+                        var quote_first_name = $('#quote_first_name').val();
+                        var quote_last_name = $('#quote_last_name').val();
+                        var quote_email = $('#quote_email').val();
+                        var home_phone = $('#home_phone').val();
+                        var quote_zipcode = $('#quote_zip').val();
+                        var affid = $('#affid').val();
+                        var ref = $('#ref').val();
+                        var sid = $('#sid').val();
+                        var uid = $('#uid').val();
+                        var gclid = $('#gclid').val();
+                        var tier = $('#tier').val();
+                        var utm_source = $('#utm_source').val();
+                        var utm_medium = $('#utm_medium').val();
+                        var utm_campaign = $('#utm_campaign').val();
+                        var utm_content = $('#utm_content').val();
+                        var utm_term = $('#utm_term').val();
+                        var request_id = $('#request_id').val();
+                        var dev_rand_id = $('#dev_rand_id').val();
+                        var zr_track_id = $('#zr_track_id').val();
+                        var grecaptcha = captchaResponse;
+                        var sys_id = $('#sys_id').val();
+                        var ip = '<?php echo get_client_ip(); ?>';
+                        if ($('#qtype').val() && $('#qtype').val() == 'qp') {
+                            var qtype = $('#qtype').val();
+                        } else {
+                            var qtype = null;
+                        }
+                        $.ajax({
+                            url: 'quote-s-form.php',
+                            type: 'POST',
+                            data: {
+                                quote_year: quote_year,
+                                quote_make: quote_make,
+                                quote_mileage: quote_mileage,
+                                quote_model: quote_model,
+                                quote_phone: quote_phone,
+                                quote_first_name: quote_first_name,
+                                quote_last_name: quote_last_name,
+                                quote_email: quote_email,
+                                home_phone: home_phone,
+                                quote_zipcode: quote_zipcode,
+                                affid: affid,
+                                ref: ref,
+                                sid: sid,
+                                uid: uid,
+                                gclid: gclid,
+                                sys_id: sys_id,
+                                zr_track_id: zr_track_id,
+                                tier: tier,
+                                utm_source: utm_source,
+                                utm_medium: utm_medium,
+                                utm_campaign: utm_campaign,
+                                utm_content: utm_content,
+                                ip: ip,
+                                utm_term: utm_term,
+                                request_id: request_id,
+                                dev_rand_id: dev_rand_id,
+                                req_dump: 'completed',
+                                qtype: qtype,
+                                grecaptcha: grecaptcha,
+                                cur_url: window.location.href
+                            },
+                            beforeSend: function() {
+                                $("#form-loader").attr("style",
+                                    "display:block");
+                            },
+                            success: function(response) {
+                                var response = JSON.parse(response);
+                                $(location).attr('href',
+                                    "<?php echo SITEURL . 'thank-you.php?es='; ?>" +
+                                    response.valid_email)
+                            }
+                        });
+                    } else {
+                        $('#next2').prop('disabled', false);
                     }
                 }
             }
@@ -968,7 +1040,7 @@ $(document).on('keyup', '#quote_mileage', function(e) {
 </script>
 <?php
 date_default_timezone_set('US/Eastern');
-$service_url = "https://dev.crm.selectautoprotect.com/getCallSetting";
+$service_url = "https://crm.selectautoprotect.com/getCallSetting";
 //$service_url = "http://sap_admin.local/getCallSetting";
 //$auth = "demo@sap.com:password";
 $curl = curl_init($service_url);
@@ -1221,54 +1293,6 @@ function getNumber(_str) {
     }
     return Number(out.join(''));
 }
-</script>
-
-<script>
-   
-   if(typeof Startup !== "undefined") {
-       Startup.AfterResult(function(result){
-           var siteurl = "<?php echo SITEURL; ?>";
-           $('#request_id').val(result.request_id);
-           $('#dev_rand_id').val(result.device_id);
-   $('#dev_f_chance').val(result.fraud_chance);
-
-   window.LOQ = window.LOQ || []
-   window.LOQ.push(['ready', async LO => {
-
-     // console.log(result);
-
-     // Track an event
-       await LO.$internal.ready('events')
-       LO.events.track('Website Load event')
-       
-       // Or, identify a visitor
-       await LO.$internal.ready('visitor')
-       LO.visitor.identify('<?php echo  $randomnumber; ?>', {
-            user: '<?php echo  $randomnumber; ?>', 
-            ip_fraud_score:<?php echo $ipqualityscore['fraud_score'];?>, 
-            device_fraud_score:result.fraud_chance,
-            ip_request_id:'<?php echo $ipqualityscore['request_id'];?>',
-            device_request_id: result.request_id,
-            crm_ip_address: '<?php echo isset($ip)?$ip:'' ?>'
-       })
-   }])
-  
-
-           $.ajax({
-               url: siteurl+'dv.php',
-               type: 'POST',
-               data: {
-       result: result,
-       cur_url: window.location.href,
-               },
-               success: function( response ) {
-                   
-               }
-           })
-       });
-       }
-   
-
 </script>
 </body>
 

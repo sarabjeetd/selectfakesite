@@ -1,65 +1,20 @@
 <?php session_destroy();
 session_start(); ?>
 <!Doctype html>
-<?php define('SITEURL', 'http://localhost:81/'); ?>
+<?php define('SITEURL', 'http://localhost/'); ?>
 <?php include('db.php'); ?>
 <html class="no-js" lang="zxx">
 
-<?php include('api_validate.php');
-
+<?php 
+include('api_validate.php');
 header('Access-Control-Allow-Origin: *');
 $randomnumber = uniqid();
 $randomnumber;
-$email = "sarab".$randomnumber."@sarabjeetdhillon.com";
 ?>
 <head>
-
-<script src="https://www.ipqscdn.com/api/selectautoprotect.com/GqsywR6r6oZty0Ivd5WN7HCwWm0yURdyNTnfwFjQ8i3PF3uDBbu3qE5jCj92kuARFTPThK4EBfCNi06YUIrBqBDBx8rQ41Na0LNGSzFsypwQQ26MAXZRQ5TSa5O29nGAFCvUdsn8AP4WESLVOj3GDGD7LNCiCuOhCkrMw8wvj5tXIEKULQIRVQKeS4FVOlXYPjLka5e0z8Sg1AqnTGr1q6ie0wUXk5j5ApA7qMUoWtZ0t9azEUYYPdOn8V0ONifx/learn.js" crossorigin="anonymous"></script>
-    <?php  if( $ipqualityscore['proxy'] != 1 || $ipqualityscore['bot_status'] !=1 || $ipqualityscore['fraud_score'] <= 25 ){ ?>
-  <!-- Global site tag (gtag.js) - Google Ads: 370456452 -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-370456452"></script>
-  <script type="text/javascript">
-    (function(c, l, a, r, i, t, y) {
-      c[a] = c[a] || function() {
-        (c[a].q = c[a].q || []).push(arguments)
-      };
-      t = l.createElement(r);
-      t.async = 1;
-      t.src = "https://www.clarity.ms/tag/" + i;
-      y = l.getElementsByTagName(r)[0];
-      y.parentNode.insertBefore(t, y);
-    })(window, document, "clarity", "script", "dbl0pmca0k");
-  </script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-    gtag('config', 'AW-370456452');
-  </script>
-  <script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)}; 
-        h._hjSettings={hjid:3263501,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
-<?php } ?>
-<?php if(get_client_ip() == '148.74.24.247' || get_client_ip() == '132.154.152.185' ) {
-include('404.php'); // provide your own HTML for the error page
-die();
-}
-  ?>
-  <script src="https://www.googleoptimize.com/optimize.js?id=OPT-53924KT"></script>
   <meta charset="utf-8">
   <meta name="robots" CONTENT="noindex">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   <title>Select Auto Protect</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -68,24 +23,6 @@ die();
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
 <script src="https://www.google.com/recaptcha/api.js"></script>
-  <!-- Google Tag Manager -->
-  <script>
-    (function(w, d, s, l, i) {
-      w[l] = w[l] || [];
-      w[l].push({
-        'gtm.start': new Date().getTime(),
-        event: 'gtm.js'
-      });
-      var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s),
-        dl = l != 'dataLayer' ? '&l=' + l : '';
-      j.async = true;
-      j.src =
-        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-      f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-NR8LLRW');
-  </script>
-  <!-- End Google Tag Manager -->
   <!-- CSS here -->
   <link rel="stylesheet" href="<?php echo SITEURL; ?>css/homepage.css">
   <link rel="stylesheet" href="<?php echo SITEURL; ?>css/fontawesome.min.css" />
@@ -270,30 +207,11 @@ die();
     background-color: rgb(233, 96, 87) !important;
 }
   </style>
-  <?php
-  $contact = '860 506 0565';
- if(isset($_GET['ref']) && $_GET['ref'] == '8936' && $ipqualityscore['fraud_score'] <= 50 && $_SESSION['fraud_chance'] < 85){
- 
-    echo "<script> (function(i,n,v,o,c,a) { i.InvocaTagId = o; var s = n.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = ('https:' === n.location.protocol ? 'https://' : 'http://' ) + v; var fs = n.getElementsByTagName('script')[0]; fs.parentNode.insertBefore(s, fs); })(window, document, 'solutions.invocacdn.com/js/invoca-latest.min.js', '1666/0840003532'); </script>";
 
-    $contact = '(860) 294-4996';
-  }
-  if (isset($_GET['ref']) && $_GET['ref'] == '5281') {
-    $contact = '860 294 4996';
-  }
-  $ref_contact = getLeadsourceData();
-  if (isset($ref_contact->show_portal) && $ref_contact->show_portal == 1) {
-    $contact = (isset($ref_contact->sales_phone_no) && !empty($ref_contact->sales_phone_no)) ? $ref_contact->sales_phone_no : '860 506 0565';
-  }
-  ?>
 </head>
 
 <body>
-<noscript><img src="https://www.ipqscdn.com/api/selectautoprotect.com/GqsywR6r6oZty0Ivd5WN7HCwWm0yURdyNTnfwFjQ8i3PF3uDBbu3qE5jCj92kuARFTPThK4EBfCNi06YUIrBqBDBx8rQ41Na0LNGSzFsypwQQ26MAXZRQ5TSa5O29nGAFCvUdsn8AP4WESLVOj3GDGD7LNCiCuOhCkrMw8wvj5tXIEKULQIRVQKeS4FVOlXYPjLka5e0z8Sg1AqnTGr1q6ie0wUXk5j5ApA7qMUoWtZ0t9azEUYYPdOn8V0ONifx/pixel.png?userID=<?php echo $randomnumber;?>&email=<?php echo $email; ?>" /></noscript>
 
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NR8LLRW" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
   <header>
     <div class="header-area">
       <div class="header-top_area skin p-0" id="skin_h">
@@ -314,72 +232,7 @@ die();
                 </div>
               </div>
             </div>
-            <!-- <div class="col-lg-6 col-md-6 text-center">
-                              <div class="widget-wrap">
-                                <h1 class="countdown-title">Cyber Monday Sale</h1>
-                                  <div id="countdown" class="countdown">
-                                    <div class="countdown-number">
-                                      <span class="days countdown-time"></span>
-                                      <span class="countdown-text">Days</span>
-                                    </div>
-                                    <div class="countdown-number">
-                                      <span class="hours countdown-time"></span>
-                                      <span class="countdown-text">Hours</span>
-                                    </div>
-                                    <div class="countdown-number">
-                                      <span class="minutes countdown-time"></span>
-                                      <span class="countdown-text">Minutes</span>
-                                    </div>
-                                    <div class="countdown-number">
-                                      <span class="seconds countdown-time"></span>
-                                      <span class="countdown-text">Seconds</span>
-                                    </div>
-                                  </div>
 
-                                
-                              </div>
-                            </div> -->
-            <?php /*
-                            <div class="col-md-2 col-12 text-center">
-                  <img class="edt-tp-sl blink" src="<?php echo SITEURL;?>img/cyb_tp.png" alt="Logo">
-               </div>
-               <div class="col-md-4 col-12 text-center">
-                  <!-- <img class="blink st-im" src="assets/images/tp_br.png"> -->
-                  <div id="timer">
-                     <div class="number-list">
-                        <!--     <div class="itemo" data-days="">00</div> -->
-                        <div class="itemo" data-hours="" style="color:#ffffff">00</div>
-                        <div class="itemo" data-minutes="" style="color:#ffffff">00</div>
-                        <div class="itemo" data-seconds="" style="color:#ffffff">00</div>
-                     </div>
-                     <div class="unit-list">
-                        <!--     <div class="itemo">Day</div> -->
-                        <div class="itemo">Hour</div>
-                        <div class="itemo">Min</div>
-                        <div class="itemo">Sec</div>
-                     </div>
-                  </div>
-               </div>
-              
-            <!-- <div class="col-lg-6 col-md-4 d-none d-lg-block"> -->
-            <!-- <div id="" class="main-header-area bg-transparent"> 
-                                        <div class="row align-items-center">
-                                            <div class="col-xl-12 col-lg-12">
-                                                <div class="main-menu  d-none d-lg-block">
-                                                    <nav>
-                                                        <ul id="navigation">
-                                                            <li class="home-menu"><a  href="index.php">home</a></li>
-                                                            <li><a href="plan.php">plan</a></li>
-                                                            <li><a href="faq.php">faq</a></li>
-                                                            <li><a href="contact-us.php">contact us</a></li>
-                                                        </ul>
-                                                    </nav>
-                                                </div>
-                                            </div>
-
-                                        </div> 
-                                </div> -->
-            <!-- </div> --> */ ?>
             <div class="col-lg-3 col-md-4 d-none d-lg-block">
               <div class="short_contact_list d-none d-lg-flex justify-content-end text-left p-0">
                 <ul>

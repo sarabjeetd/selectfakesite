@@ -58,6 +58,8 @@ $_SESSION['es']                 =  0;
 if($ipqualityscore['vpn'] == 1 || $vpncheck->vpn == 1){
     $vpn = 1;
 }
+
+
 $verify = uniqid();
 $service_url = "https://dev.crm.selectautoprotect.com/admin/api/saveToken";
 $posttoken = array(

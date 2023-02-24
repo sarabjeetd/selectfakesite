@@ -1,87 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://localhost:81/</loc>
+    <loc>http://localhost/</loc>
   </url>
   <url>
-    <loc>http://localhost:81/faq.php</loc>
+    <loc>http://localhost/faq.php</loc>
   </url>
   <url>
-    <loc>http://localhost:81/privacypolicy.php</loc>
+    <loc>http://localhost/privacypolicy.php</loc>
   </url>
   <url>
-    <loc>http://localhost:81/plan.php</loc>
+    <loc>http://localhost/plan.php</loc>
   </url>
   <url>
-    <loc>http://localhost:81/contact-us.php</loc>
+    <loc>http://localhost/contact-us.php</loc>
   </url>
   <url>
-    <loc>http://localhost:81/serviceagreement.php</loc>
+    <loc>http://localhost/serviceagreement.php</loc>
   </url>
   <url>
-    <loc>http://localhost:81/acura-extended-warranty.php</loc>
+    <loc>http://localhost/acura-extended-warranty.php</loc>
   </url>
   <url>
-    <loc>http://localhost:81/audi-extended-warranty.php</loc>
+    <loc>http://localhost/audi-extended-warranty.php</loc>
   </url>
   <url>
-    <loc>http://localhost:81/bentley-extended-warranty.php</loc>
+    <loc>http://localhost/bentley-extended-warranty.php</loc>
   </url>
   <url>
-    <loc>http://localhost:81/aston-martin-extended-warranty.php</loc>
+    <loc>http://localhost/aston-martin-extended-warranty.php</loc>
   </url>
   <url>
-    <loc>http://localhost:81/bmw-extended-warranty.php</loc>
+    <loc>http://localhost/bmw-extended-warranty.php</loc>
   </url>
   <url>
-    <loc>http://localhost:81/dodge-extended-warranty.php</loc>
+    <loc>http://localhost/dodge-extended-warranty.php</loc>
   </url>
   <url>
-    <loc>http://localhost:81/chrysler-extended-warranty.php</loc>
+    <loc>http://localhost/chrysler-extended-warranty.php</loc>
   </url>
   <url>
-    <loc>http://localhost:81/buick-extended-warranty.php</loc>
+    <loc>http://localhost/buick-extended-warranty.php</loc>
   </url>
   <url>
-    <loc>http://localhost:81/cadillac-extended-warranty.php</loc>
+    <loc>http://localhost/cadillac-extended-warranty.php</loc>
   </url>
   <url>
-    <loc>http://localhost:81/chevrolet-extended-warranty.php</loc>
+    <loc>http://localhost/chevrolet-extended-warranty.php</loc>
   </url>
   <url>
-    <loc>http://localhost:81/ferrari-extended-warranty.php</loc>
+    <loc>http://localhost/ferrari-extended-warranty.php</loc>
   </url>
   <url>
-    <loc>http://localhost:81/ford-extended-warranty.php</loc>
+    <loc>http://localhost/ford-extended-warranty.php</loc>
   </url>
   <url>
-    <loc>http://localhost:81/hyundai-extended-warranty.php</loc>
+    <loc>http://localhost/hyundai-extended-warranty.php</loc>
   </url>
   <url>
-    <loc>http://localhost:81/jeep-extended-warranty.php</loc>
+    <loc>http://localhost/jeep-extended-warranty.php</loc>
   </url>
   <url>
-    <loc>http://localhost:81/kia-extended-warranty.php</loc>
+    <loc>http://localhost/kia-extended-warranty.php</loc>
   </url>
   <url>
-    <loc>http://localhost:81/infiniti-extended-warranty.php</loc>
+    <loc>http://localhost/infiniti-extended-warranty.php</loc>
   </url>
   <url>
-    <loc>http://localhost:81/mazda-extended-warranty.php</loc>
+    <loc>http://localhost/mazda-extended-warranty.php</loc>
   </url>
   <url>
-    <loc>http://localhost:81/maserati-extended-warranty.php</loc>
+    <loc>http://localhost/maserati-extended-warranty.php</loc>
   </url>
   <url>
-    <loc>http://localhost:81/lincoln-extended-warranty.php</loc>
+    <loc>http://localhost/lincoln-extended-warranty.php</loc>
   </url>
   <url>
-    <loc>http://localhost:81/mercedes-benz-extended-warranty.php</loc>
+    <loc>http://localhost/mercedes-benz-extended-warranty.php</loc>
   </url>
   <url>
-    <loc>http://localhost:81/lexus-extended-warranty.php</loc>
+    <loc>http://localhost/lexus-extended-warranty.php</loc>
   </url>
   <url>
-    <loc>http://localhost:81/reviews.php</loc>
+    <loc>http://localhost/reviews.php</loc>
   </url>
 </urlset>

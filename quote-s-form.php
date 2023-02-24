@@ -163,98 +163,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
     $vanilasoft_post['lead_id']  = $get_lead;
      
-    if ($vanilasoft_post['lead_id']!="" &&  $get_id[0]->device_data  < 4) {
-        if($ref=='8598'){
-            $post_back_url = "https://cvrdomain.com/l/con?oid=80001&clickid=SID";
-        }elseif($ref=='8599') //set up postback for 8599
-        {
-            $post_back_url = "https://cvrdomain.com/l/con?oid=79972&clickid=SID";
-        }
-     // POST URL FOR VANILLA SOFT  
-        if (isset($_POST['qtype']) && $_POST['qtype'] == 'qp') {
-            $qlink = "https://new.vanillasoft.net/web/post.aspx?id=78773";
-            //$qlink = "https://vanillasoft.net/web/post.aspx?id=121222";
-        } else {
-            $qlink = "https://vanillasoft.net/web/post.aspx?id=97520";
-           // $qlink = "https://vanillasoft.net/web/post.aspx?id=121222";
-        }
-        // if($ref=='8832'  || $ref=='sarab' ){
-            
-        //     if(!empty($post_back_url)){
-        //         $curl_postback = curl_init();
-        //         curl_setopt_array($curl, array(
-        //         CURLOPT_URL => $post_back_url,
-        //         CURLOPT_RETURNTRANSFER => true,
-        //         CURLOPT_ENCODING => "",
-        //         CURLOPT_MAXREDIRS => 10,
-        //         CURLOPT_TIMEOUT => 0,
-        //         CURLOPT_FOLLOWLOCATION => true,
-        //         CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-        //         CURLOPT_CUSTOMREQUEST => "POST",
-        //         ));
-        //         $response = @curl_exec($curl); //suppressing errors
-        //     }
-		// 	if ($zr_track_id == '') {
-		// 		$curl = curl_init();
-		// 		curl_setopt_array($curl, array(
-		// 			CURLOPT_URL => $qlink,
-		// 			CURLOPT_RETURNTRANSFER => true,
-		// 			CURLOPT_ENCODING => "",
-		// 			CURLOPT_MAXREDIRS => 10,
-		// 			CURLOPT_TIMEOUT => 0,
-		// 			CURLOPT_FOLLOWLOCATION => true,
-		// 			CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-		// 			CURLOPT_CUSTOMREQUEST => "POST",
-		// 			CURLOPT_POSTFIELDS =>  $vanilasoft_post
-		// 		));    
-		// 		$response = curl_exec($curl);
-		// 		if ($response == 'Success') {
-		// 			$update_status['posted_to_vs'] = 1;
-		// 			$update_status['lead_id'] = $get_lead;
-		// 			update_lead_status($update_status);
-		// 		}
-		// 		curl_close($curl);
-		// 	}
-        // }else{ && $_SESSION['fraud_score'] <= 50
-            if($_SESSION['device_fraud_score'] < 85 ){
-                if(!empty($post_back_url)){
-                    $curl_postback = curl_init();
-                    curl_setopt_array($curl, array(
-                    CURLOPT_URL => $post_back_url,
-                    CURLOPT_RETURNTRANSFER => true,
-                    CURLOPT_ENCODING => "",
-                    CURLOPT_MAXREDIRS => 10,
-                    CURLOPT_TIMEOUT => 0,
-                    CURLOPT_FOLLOWLOCATION => true,
-                    CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-                    CURLOPT_CUSTOMREQUEST => "POST",
-                    ));
-                    $response = @curl_exec($curl); //suppressing errors
-                }
-				if ($zr_track_id == '') {
-					$curl = curl_init();
-					curl_setopt_array($curl, array(
-						CURLOPT_URL => $qlink,
-						CURLOPT_RETURNTRANSFER => true,
-						CURLOPT_ENCODING => "",
-						CURLOPT_MAXREDIRS => 10,
-						CURLOPT_TIMEOUT => 0,
-						CURLOPT_FOLLOWLOCATION => true,
-						CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-						CURLOPT_CUSTOMREQUEST => "POST",
-						CURLOPT_POSTFIELDS =>  $vanilasoft_post
-					));    
-					$response = curl_exec($curl);
-					if ($response == 'Success') {
-						$update_status['posted_to_vs'] = 1;
-						$update_status['lead_id'] = $get_lead;
-						update_lead_status($update_status);
-					}
-					curl_close($curl);
-				}
-            }
-       // }
-    }
+
+
+    $update_status['posted_to_vs'] = 1;
+    $update_status['lead_id'] = $get_lead;
+    update_lead_status($update_status);
+
+
     $messages = '<!DOCTYPE html>
     <html>
     <head>
@@ -308,7 +223,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $email_headers = "From: SelectAutoProtect <quote@selectautoprotect.com>";
         $email_headers .= 'MIME-Version: 1.0' . "\r\n";
         $email_headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-        if (mail($receiver, $subject, $messages, $email_headers)) {
+        if (@mail($receiver, $subject, $messages, $email_headers)) {
             
         } else {
             echo "Oops! Something went wrong and we couldn't send your Message.";
@@ -371,7 +286,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 </table>
             </body>
             </html>';
-        if (mail($receiver, $subject, $email_body, $email_headers)) {
+        if (@mail($receiver, $subject, $email_body, $email_headers)) {
         } else {
             echo "Oops! Something went wrong and we couldn't send your Message.";
         }

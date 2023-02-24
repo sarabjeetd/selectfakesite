@@ -108,7 +108,7 @@ include('car_make/car_make.php'); ?>
 
 			<p class="mb-2">Buying a new car should be an exciting experience. You want to make sure your new Buick is protected so that you can enjoy it for as long as possible. Whether you’re buying a brand-new car or have already enjoyed one for a while, we’re here to help make sure it lasts. </p>
 
-			<p class="mb-2">Your Buick extended warranty prices will be based on your needs when you choose the Select Auto Protect plan that’s right for you. <a href="http://localhost:81/plan.php">Click here</a> to find out which one of our plans best suits your needs and learn more about our Buick extended warranty costs. </p>
+			<p class="mb-2">Your Buick extended warranty prices will be based on your needs when you choose the Select Auto Protect plan that’s right for you. <a href="http://localhost/plan.php">Click here</a> to find out which one of our plans best suits your needs and learn more about our Buick extended warranty costs. </p>
 
 				<!-- <div class="bg-quote-brands" style="width: 100%">
 

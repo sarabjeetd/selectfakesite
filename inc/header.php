@@ -3,56 +3,24 @@ session_destroy();
 session_start(); 
 include('db.php');?>
 <!Doctype html>
-<?php //define ('SITEURL', 'http://localhost:81/'); ?>
+<?php //define ('SITEURL', 'http://localhost/'); ?>
 <html class="no-js" lang="en">
 
-<?php include('api_validate.php');
-
+<?php 
+include('api_validate.php');
 header('Access-Control-Allow-Origin: *');
 $randomnumber = uniqid();
 $randomnumber;
 ?>
 <head>
-
-<script src="https://www.ipqscdn.com/api/selectautoprotect.com/GqsywR6r6oZty0Ivd5WN7HCwWm0yURdyNTnfwFjQ8i3PF3uDBbu3qE5jCj92kuARFTPThK4EBfCNi06YUIrBqBDBx8rQ41Na0LNGSzFsypwQQ26MAXZRQ5TSa5O29nGAFCvUdsn8AP4WESLVOj3GDGD7LNCiCuOhCkrMw8wvj5tXIEKULQIRVQKeS4FVOlXYPjLka5e0z8Sg1AqnTGr1q6ie0wUXk5j5ApA7qMUoWtZ0t9azEUYYPdOn8V0ONifx/learn.js" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-    <?php  if( $ipqualityscore['proxy'] != 1 || $ipqualityscore['bot_status'] !=1 || $ipqualityscore['fraud_score'] <= 50 ){ ?>
-<!-- Global site tag (gtag.js) - Google Ads: 370456452 -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-370456452"></script>
-<script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "dbl0pmca0k");
-</script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'AW-370456452');
-</script>
-<script src="https://www.googleoptimize.com/optimize.js?id=OPT-53924KT"></script>
-
-    <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NR8LLRW"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<?php } ?>
+    
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title><?php echo isset($title)?$title:'Select Auto Protect'; ?></title>
     <meta name="description" content="<?php echo isset($description)?$description:''; ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="google-site-verification" content="KZp7cFEhIXc_gjFJnfx3d9hpF5rL4nHPUSlRjJmsFoY" />
-<!-- Google Tag Manager -->
-
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-NR8LLRW');</script>
-<!-- End Google Tag Manager -->
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo SITEURL;?>img/autofavicon.png">
     <!-- CSS here -->
       <link rel="stylesheet" href="<?php echo SITEURL;?>css/fontawesome.min.css"  />
@@ -67,19 +35,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
    <!-- Review CSS -->
   
 	<link rel="stylesheet" type="text/css" href="css/reviews.css">
-    <meta name="facebook-domain-verification" content="31b49cs178wffbhkrmos1w85kxg1va" />
     
 </head>
 <body>
-<noscript><img src="https://www.ipqscdn.com/api/selectautoprotect.com/GqsywR6r6oZty0Ivd5WN7HCwWm0yURdyNTnfwFjQ8i3PF3uDBbu3qE5jCj92kuARFTPThK4EBfCNi06YUIrBqBDBx8rQ41Na0LNGSzFsypwQQ26MAXZRQ5TSa5O29nGAFCvUdsn8AP4WESLVOj3GDGD7LNCiCuOhCkrMw8wvj5tXIEKULQIRVQKeS4FVOlXYPjLka5e0z8Sg1AqnTGr1q6ie0wUXk5j5ApA7qMUoWtZ0t9azEUYYPdOn8V0ONifx/pixel.png?userID=<?php echo $randomnumber;?>" /></noscript>
 
-
-<?php if(get_client_ip() == '148.74.24.247' || get_client_ip() == '132.154.152.185') {
-include('404.php'); // provide your own HTML for the error page
-die();
-}
-  ?>
-<!-- End Google Tag Manager (noscript) -->
 <?php 
 	$contact = '860 393 0962'; 
 

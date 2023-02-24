@@ -1,5 +1,5 @@
 User-agent: *
 Disallow: /admin/*
 
-Host: http://localhost:81/
-Sitemap: http://localhost:81/sitemap.xml
+Host: http://localhost/
+Sitemap: http://localhost/sitemap.xml

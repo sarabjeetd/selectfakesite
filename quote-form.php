@@ -155,36 +155,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 }
 
-$curl = curl_init();
-
-//CURLOPT_URL => "https://new.vanillasoft.net/web/post.aspx?id=75781",
-
-curl_setopt_array($curl, array(
-  CURLOPT_URL => "https://new.vanillasoft.net/web/post.aspx?id=97520",
-  CURLOPT_RETURNTRANSFER => true,
-  CURLOPT_ENCODING => "",
-  CURLOPT_MAXREDIRS => 10,
-  CURLOPT_TIMEOUT => 0,
-  CURLOPT_FOLLOWLOCATION => true,
-  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-  CURLOPT_CUSTOMREQUEST => "POST",
-  CURLOPT_POSTFIELDS => array(
-    'make' => $quote_make,
-    'mileage' => $quote_mileage,
-    'model' => $quote_model,
-    'year' => $quote_year,
-    'email' => $quote_email,
-    'first_name' => $quote_first_name,
-    'last_name' => $quote_last_name,
-    'mobile' => $quote_phone,
-  ),
-));
-
-$response = curl_exec($curl);
-
-curl_close($curl);
-//echo $response;
-
 
 
 
